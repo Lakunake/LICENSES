@@ -1,0 +1,557 @@
+# JACX Gaming License (JACX-GMG) — Version 1.0
+
+**Short name:** JACX-GMG v1.0  
+**Copyright © 2025 Lakunake**  
+**Based on:** JACX-ANCSA-R v2.1
+
+## Preamble
+
+This license is specifically designed for video games, interactive entertainment software, and related gaming content. It balances the rights of game developers to control commercial exploitation with the legitimate interests of gaming communities including content creators, streamers, modders, tournament organizers, and fan translators. Version 1.0 recognizes that modern gaming ecosystems involve complex interactions between creators, players, community members, and competitive play that require nuanced licensing terms beyond traditional software licenses.
+
+This license permits NonCommercial use, community content creation, competitive play with prizes, user modifications, and streaming while reserving commercial distribution rights to the Licensor. The license includes specific accommodations for content creators who monetize their creative works about the game, modders who accept community support, and tournament organizers who conduct prize competitions.
+
+This license is provided as a user-draft for practical implementation. It is not legal advice. Organizations should consult qualified legal counsel before adopting this license. The provisions herein reflect common practices in gaming communities but may interact with platform terms of service, content creator agreements, and competition regulations in ways that require professional legal guidance.
+
+## License Terms
+
+By installing, playing, accessing, copying, modifying, or distributing any portion of the Game, you expressly agree to all terms of the JACX Gaming License version 1.0. If you do not agree to these terms in their entirety, you have no rights to access, use, copy, modify, or distribute the Game in any form. Partial acceptance is not permitted.
+
+## 0. Definitions
+
+**"Game"** means the video game, interactive entertainment software, and all associated files, code, assets, media, documentation, and other materials that the Licensor distributes under this license, whether in source or object form, including any updates, patches, or expansions designated by the Licensor as part of the Game.
+
+**"Game Content"** means the creative and audiovisual portions of the Game including but not limited to artwork, character designs, animations, audio recordings, music compositions, sound effects, video cinematics, dialog and narrative text, three-dimensional models, textures, level designs, world layouts, user interface designs, fonts, and similar creative assets. Game Content is governed by the attribution and community creation provisions in Sections 1, 4, 5, 8, and 9.
+
+**"Game Code"** means the software portions of the Game including but not limited to source code files, compiled executables, libraries, scripts, shaders, build configurations, game logic, engine components, networking code, and compilation toolchains. Game Code is governed by the modification and source-availability provisions in Sections 2, 3, 4, 5, 6, and 10.
+
+**"Game Mechanics"** means the rules, systems, algorithms, gameplay loops, balancing parameters, progression structures, and interactive designs that define how the Game functions and how players interact with it. Game Mechanics are considered part of Game Code for purposes of modification rights but are not subject to source disclosure requirements when implemented through publicly documented specifications.
+
+**"You," "Your," or "Player"** means any natural person or legal entity exercising rights under this license. For legal entities, "You" includes any entity that controls, is controlled by, or is under common control with that entity. "Control" means direct or indirect ownership of more than fifty percent of voting interests or decision-making authority.
+
+**"Modified Game"** means any version of the Game that has been altered, enhanced, extended, translated, or otherwise changed from the original Game distributed by the Licensor, including modifications to Game Code, Game Content, or both. Modified Games include mods, fan translations, texture packs, gameplay modifications, balance adjustments, quality-of-life improvements, and total conversions.
+
+**"User-Generated Content"** means original creative works created by Players using, based on, or inspired by the Game including but not limited to gameplay videos, livestreams, screenshots, fan art, fan fiction, gameplay guides, strategy content, reviews, commentary, analysis, machinima, music covers or remixes, cosplay, physical merchandise for personal use, and similar creative expressions. User-Generated Content is not considered a Modified Game unless it incorporates Modified Game Code or Modified Game Content in executable or playable form.
+
+**"Mod" or "Modification"** means a Modified Game that is distributed as an add-on, extension, or alteration to the base Game and requires the original Game to function. Mods include texture replacements, gameplay tweaks, additional content, interface modifications, fan translations, accessibility improvements, and similar community-created enhancements.
+
+**"Total Conversion"** means a Modified Game that replaces substantially all Game Content and Game Mechanics while potentially utilizing the underlying game engine or technical framework. Total Conversions function as distinct games with their own identity, narrative, and creative direction.
+
+**"Content Creator"** means any individual or entity who creates User-Generated Content based on or featuring the Game for distribution to audiences through any medium including streaming platforms, video hosting services, social media, written publications, podcasts, or other communication channels.
+
+**"Monetized Platform"** means any website, service, application, or distribution channel that generates revenue through advertising, subscriptions, sponsorships, platform revenue-sharing programs, or similar mechanisms where the platform operator, not the content distributor, controls and receives the primary monetization revenue.
+
+**"Direct Monetization"** means receiving payment directly from end users in exchange for access to content, including paywalls, subscription requirements, purchase requirements, platform-exclusive access requiring paid membership, crowdfunding platforms where ongoing payments provide exclusive access or benefits, and similar mechanisms where payment is a condition of access. Direct Monetization does not include voluntary donations, tips, or support where payment is not required for access.
+
+**"Donation"** means a voluntary payment made by a supporter to a creator without any requirement, obligation, or conditioned access. A payment qualifies as a Donation only if all of the following conditions are met: the payment is entirely voluntary and optional; no content, features, benefits, or access is conditioned on payment; no goods or services are provided in exchange for payment beyond public recognition or gratitude; the creator does not withhold, delay, or restrict content based on donation status; and the payment is made without expectation of reciprocal benefit beyond supporting the creator's work generally.
+
+**"Tournament"** means any organized competitive event, league, competition, or contest where Players compete in the Game for rankings, recognition, prizes, or other competitive outcomes. Tournaments include online competitions, in-person events, league play, championship series, exhibition matches, and similar competitive structures.
+
+**"Prize Pool"** means the total value of all prizes, awards, compensation, or other items of value distributed to participants or winners of a Tournament, regardless of funding source. Prize Pool includes cash prizes, physical goods, digital goods, travel expenses, accommodations, equipment, recognition awards, and any other consideration provided to participants.
+
+**"Entry Fee"** means any payment, purchase requirement, or consideration required from participants as a condition of participation in a Tournament, excluding reasonable facility access fees for in-person events held at commercial venues.
+
+**"NonCommercial"** means not primarily intended for or directed toward commercial advantage, private monetary compensation, or financial gain through the Game itself. NonCommercial uses expressly include personal gameplay; creating User-Generated Content with platform-based monetization; streaming gameplay on Monetized Platforms; organizing or participating in Tournaments with Prize Pools and reasonable Entry Fees as permitted in Section 7; distributing Mods on Monetized Platforms without Direct Monetization; accepting Donations for community contributions; academic research and educational use; government use for public purposes; and internal testing and development by commercial entities where the Game is not incorporated into commercial products.
+
+NonCommercial uses expressly exclude commercial distribution or sale of the Game itself or Modified Games that function as standalone products; incorporation of the Game into commercial products or services offered for sale or subscription; providing commercial services based on access to the Game such as paid server hosting with exclusive gameplay features; licensing or sublicensing the Game commercially; using the Game or Modified Games in advertising or marketing for commercial products where the Game is the primary draw; collecting Direct Monetization for access to Mods or User-Generated Content; and operating gambling services, wagering platforms, or real-money gaming services based on the Game.
+
+**"Commercial Distribution"** means making the Game or Modified Games available for download, purchase, access, or use as a commercial product, including distribution through digital storefronts, physical media sales, subscription services, or commercial game distribution platforms. Commercial Distribution does not include distribution of Mods that require the original Game, or User-Generated Content that references the Game.
+
+**"Corresponding Source"** means all source files, assets in editable formats, build scripts, asset creation files, documentation, and tools necessary to build, modify, and compile the Game Code from source form to executable form. For Game Content, Corresponding Source means source assets in editable formats such as layered image files, 3D model source files, audio project files, and similar materials. Corresponding Source must be in formats compatible with widely available creative tools and development environments.
+
+**"Licensor"** means the copyright holder or holders who distribute the Game under this license, or any authorized agent acting on their behalf. Where multiple copyright holders exist, "Licensor" includes all such holders collectively unless context clearly indicates otherwise.
+
+**"Contributor"** means any person or entity that has contributed copyrightable material to the Game and has had such contributions accepted by the Licensor for inclusion in the Game.
+
+**"Commercial License"** means a separate agreement with the Licensor that permits Commercial Distribution or other commercial exploitation of the Game under different terms than this license.
+
+## 1. Grant — Community Gameplay and Content Creation Rights
+
+Subject to compliance with all terms of this license, the Licensor grants You a worldwide, royalty-free, non-exclusive, non-transferable, revocable license to exercise the following rights with respect to the Game for NonCommercial purposes.
+
+**Gameplay Rights:** You may install and play the Game for personal entertainment; participate in multiplayer gameplay including online and local play; access all gameplay features and content included in or unlocked through the Game; record gameplay through built-in or third-party capture tools; take screenshots and capture audio from the Game; and use the Game for personal entertainment, education, research, and criticism.
+
+**Content Creation Rights:** You may create User-Generated Content featuring, based on, or inspired by the Game including gameplay videos, livestreams, screenshots, fan art, written content, and similar creative works; distribute User-Generated Content through any medium or platform including Monetized Platforms; monetize User-Generated Content through platform-based revenue sharing, advertising, sponsorships, and Donations; license Your original creative elements in User-Generated Content under Your own terms while maintaining attribution to the Game; and create derivative creative works inspired by the Game's narrative, characters, setting, or themes that do not incorporate Game Code or unmodified Game Content.
+
+**Content Creator Safe Harbor:** Content Creators may monetize their User-Generated Content through any mechanism including Monetized Platforms, sponsorship deals, merchandise sales featuring their own creative elements, and Donations without restriction, provided that access to the User-Generated Content itself is not conditioned on payment (Direct Monetization). This right applies even if the Content Creator's channel, platform presence, or creative work generates substantial revenue, provided the revenue derives from the Content Creator's own creative expression and labor rather than from selling access to the Game or Modified Games.
+
+**Streaming and Video Rights:** You may stream gameplay live or distribute recorded gameplay videos on any platform; include commentary, criticism, review, educational content, or entertainment value beyond raw gameplay; accept revenue from platform monetization programs, sponsorships, subscriptions to Your channel (not to specific content), super chats, tips, donations, and similar mechanisms; and use the Game as a component of Your broader content creation activities where Your creative input adds substantial value.
+
+**Fan Work Rights:** You may create fan art, fan fiction, fan animations, fan music, cosplay, physical props for personal use, and similar fan works inspired by the Game; distribute such fan works through any medium; sell Your original fan works in physical or digital form provided they do not incorporate unmodified Game Content in digital formats and comply with Section 9; and license Your fan works under Your own terms while maintaining appropriate attribution.
+
+**Platform Restrictions:** Your rights under this Section extend to distribution through Monetized Platforms. You must not employ Direct Monetization requiring payment for access to gameplay content, screenshots, or similar materials that primarily showcase the Game without substantial original creative elements. Educational content, critical analysis, entertainment commentary, and substantial creative transformations may use any monetization approach.
+
+**Limitations:** You must not misrepresent the Game, make false claims about the Game's features or development status, or create content that could reasonably be mistaken for official Game materials without clear disclaimers. You must comply with all attribution requirements in Section 4. You must not circumvent, disable, or interfere with anti-cheat systems, technical protection measures, or security features implemented in the Game.
+
+## 2. Grant — Modification and Modding Rights
+
+Subject to compliance with all terms of this license, the Licensor grants You a worldwide, royalty-free, non-exclusive, non-transferable, revocable license to exercise the following rights to modify the Game and create Mods.
+
+**Modification Rights:** You may modify Game Code and Game Content for personal use; create Mods that enhance, extend, alter, or improve the Game; develop fan translations of the Game into any language; create accessibility modifications that improve the Game for players with disabilities; develop texture packs, resource packs, and visual modifications; create gameplay balance modifications and quality-of-life improvements; develop new content including levels, missions, characters, items, and gameplay features; and combine or integrate Mods created by multiple modders.
+
+**Mod Distribution Rights:** You may distribute Mods through any medium including dedicated modding websites, file hosting services, version control platforms, community forums, and Monetized Platforms; distribute Mods that require the original Game to function without providing the original Game itself; host Mods on platforms that generate advertising revenue for the platform operator; include installation instructions, documentation, and technical support for Your Mods; and create collections, compilations, or modpacks that bundle multiple Mods together.
+
+**Mod Monetization Restrictions:** You may distribute Mods on Monetized Platforms where the platform generates advertising or subscription revenue that You may share in. You may accept Donations for Your modding work provided that access to the Mod is not conditioned on payment and the Donation qualifies under the definition in Section 0. You must not use Direct Monetization requiring payment for access to Mods, including paywalls, mandatory subscriptions, platform-exclusive access requiring payment, content gating behind crowdfunding tiers, or similar mechanisms that condition access on payment. You must not sell Mods as standalone commercial products or license Mods commercially.
+
+**Donation Guidelines:** Donations for Mods qualify as NonCommercial support provided that the Mod is freely available to all users without payment requirements; no features, content, updates, or versions are exclusive to donors; donors receive no gameplay advantages, early access periods exceeding seven days, or exclusive content beyond cosmetic recognition; the modder does not withhold completed content pending donation thresholds; and any recognition of donors is limited to credits, thank-you messages, and non-functional cosmetic acknowledgments.
+
+**Early Access Tolerance:** Modders may provide donors with early access to Mod updates for a period not exceeding seven days before public release, provided that all content is released publicly within that timeframe and no content is permanently exclusive to donors.
+
+**Fan Translation Rights:** Fan translators may accept Donations under the same terms as modders. Fan translations must be distributed freely and must not require payment for access. Fan translators should coordinate with the Licensor when feasible to avoid duplicative efforts and may be invited to contribute officially at the Licensor's discretion.
+
+**Total Conversion Treatment:** Total Conversions that replace substantially all Game Content and create a distinct game experience must obtain a Commercial License if distributed as standalone products, even if distributed for free, because they function as derivative games rather than modifications of the original Game. Total Conversions distributed as Mods requiring the original Game may be distributed under this license.
+
+**Technical Requirements:** Mods must not bypass, disable, or interfere with license enforcement mechanisms, digital rights management, anti-cheat systems, or authentication systems implemented in the Game unless such modifications are necessary for legitimate accessibility or compatibility purposes and do not enable license violations. Mods must include clear attribution to the original Game as required by Section 4 and must include notice of the modder's modifications.
+
+**Quality and Conduct Standards:** Modders must not create Mods that facilitate cheating in multiplayer environments unless clearly designated as single-player or private server modifications. Modders must not include malicious code, security vulnerabilities, or data harvesting mechanisms in Mods. Modders must not create Mods containing content that is illegal, defamatory, harassing, discriminatory, or that violates third-party intellectual property rights. The Licensor reserves the right to request removal of Mods that violate these standards but has no obligation to police community content.
+
+## 3. Source Availability Requirement (Game Code)
+
+When You distribute Modified Game Code or distribute any executable containing Modified Game Code, You must make the Corresponding Source of Your modifications available to all recipients. This requirement ensures that recipients of Mods can understand, verify, build, and further modify the Mod code.
+
+**Disclosure Requirement:** You must provide the Corresponding Source of all Game Code modifications You have made through one of the following methods: include the source with the Mod distribution in a standard archive format; provide a direct download link to the source hosted on a publicly accessible repository, file hosting service, or version control system; or provide a written offer valid for at least three years to provide the source upon request at no charge beyond reasonable distribution costs.
+
+**Source Format Requirements:** Corresponding Source must be provided in human-readable formats using standard file formats compatible with widely available development tools. Source code must include comments sufficient for a developer with ordinary skills to understand the modifications. Build instructions must be included when necessary to compile the modified code. You must identify all dependencies, libraries, and tools required to build the modified code, including version information and sources for obtaining them.
+
+**Game Content Source Exception:** You are not required to provide Corresponding Source for Game Content modifications unless such modifications include executable components or scripts. Purely artistic modifications such as texture replacements, model replacements, audio replacements, and level layouts may be distributed in final compiled or optimized formats without source disclosure. However, providing source formats for Game Content modifications is encouraged to facilitate community collaboration.
+
+**Timing and Accessibility:** Corresponding Source must be made available simultaneously with or within thirty days of distributing the Modified Game Code. Source must remain available for the same duration and with the same level of accessibility as the modified executable distribution. You must not impose registration requirements, authentication barriers, payment requirements, or geographical restrictions on access to Corresponding Source beyond those necessary to prevent automated abuse.
+
+**Compatibility with Modding Platforms:** Corresponding Source may be hosted on modding platforms, version control services, or file hosting services commonly used by the modding community. Use of standard modding infrastructure satisfies the accessibility requirement provided that the platforms do not impose unreasonable barriers to access.
+
+**Prohibition on Obfuscation:** You must not deliberately obfuscate source code, use unclear variable names to obscure functionality, remove helpful comments present in the original code, or employ other techniques designed to make the source less understandable. Standard compiler optimizations and minification of production builds do not violate this prohibition provided that unoptimized source is available.
+
+## 4. Attribution Requirement (All Uses)
+
+Every use, distribution, modification, public display, or public performance of the Game, whether original or modified, and all User-Generated Content based on the Game must include appropriate attribution to the original Game and its creators.
+
+**Minimum Attribution for Mods and Modified Games:** All Mods and Modified Games must include the name of the original Game as specified by the Licensor; a statement that the Mod or modification is based on the original Game; copyright notice for the original Game; a notice that the original Game is licensed under JACX-GMG v1.0; a URL or reference to where the original Game can be obtained; and a description of modifications made, identifying what has been changed from the original.
+
+**Minimum Attribution for User-Generated Content:** User-Generated Content including gameplay videos, streams, fan art, and similar works must include the name of the original Game in the title, description, or prominent accompanying text; identification that the content features or is based on the Game; and a link to the Game's official website, store page, or primary distribution location if such locations are publicly known and when technically feasible. Attribution for User-Generated Content should be appropriate to the medium and need not be as extensive as attribution for Mods.
+
+**Attribution Placement for Mods:** Attribution for Mods must appear in README files, description pages on distribution platforms, in-game credits screens, Mod launcher interfaces or selection screens, and in source code headers for modified source files.
+
+**Attribution Placement for User-Generated Content:** Attribution for User-Generated Content must appear in video descriptions, stream information panels, image descriptions or captions, article bylines or footers, or other locations appropriate to the medium where users would reasonably encounter such information.
+
+**Simplified Attribution for Streams:** Content Creators who stream gameplay regularly may satisfy attribution requirements through channel-level information such as "About" sections, channel descriptions, or stream information panels rather than repeating attribution in every individual stream or video, provided such information is readily accessible to viewers.
+
+**Attribution for Fan Works:** Fan art, fan fiction, and similar creative works should identify the Game as inspiration but are not required to include full license notices. Reasonable attribution such as "Based on [Game Name]" or "Fan art of [Game Name]" is sufficient.
+
+**Prohibition on Misattribution:** You must not remove or alter existing copyright notices, license information, or attribution present in the Game. You must not claim to be the original creator of the Game or imply official endorsement by the Licensor. You must clearly distinguish Your contributions from the original Game.
+
+**Trademark Usage:** Attribution must comply with trademark usage guidelines in Section 11. You may use the Game's name for factual attribution purposes but must not use trademarks in a manner that suggests endorsement, official status, or confusion about the source of modified versions.
+
+## 5. ShareAlike Requirement (Modified Games)
+
+To preserve community freedoms and ensure that modifications remain available for further modification, You must apply ShareAlike terms to Modified Games under specific circumstances defined in this Section.
+
+**ShareAlike Trigger:** The ShareAlike requirement is triggered when You distribute a Modified Game that constitutes a derivative work requiring permission under copyright law. Simple Mods that add content without replacing substantial Game Code or Game Content do not trigger ShareAlike for the added content, which may be licensed separately, provided the Mod clearly segregates original content from Game-derived content.
+
+**ShareAlike Scope for Mods:** When You distribute a Mod that modifies Game Code or replaces substantial Game Content, You must license the modified portions under this JACX-GMG license at version 1.0 or any later version published by the Licensor. Original content You add to the Game that is clearly separable and independently copyrightable may be licensed under different terms, provided that the Mod as a whole can be used under JACX-GMG terms and You clearly document which components are under which license.
+
+**ShareAlike Scope for Total Conversions:** Total Conversions that constitute substantially new games must obtain a Commercial License because they function as derivative games rather than modifications. If distributed as Mods requiring the original Game, Total Conversions may be distributed under this license with all derivative Game Code and Game Content under ShareAlike terms, while original creative elements may be licensed separately.
+
+**Independent Content:** Content that does not incorporate, derive from, or depend upon Game Code or Game Content is not subject to ShareAlike requirements. This includes gameplay videos, fan art created from scratch, fan fiction, written guides, and similar works that reference the Game but do not incorporate copyrightable elements of the Game itself beyond de minimis use.
+
+**User-Generated Content Exception:** User-Generated Content as defined in Section 0 is not subject to ShareAlike requirements even when it incorporates Game Content in transformative ways such as screenshots, gameplay footage, or creative reinterpretations. Content Creators retain full ownership and control of their User-Generated Content subject only to attribution requirements.
+
+**Mod Combinations:** When combining Mods from multiple creators, the combined work must be licensed under JACX-GMG terms, but individual Mod components may retain separate licensing for their original contributions provided the combination as a whole is usable under JACX-GMG terms.
+
+**License Compatibility:** You may combine Modified Games with other software or content licensed under compatible terms, including other JACX-GMG licensed works, Creative Commons Attribution-ShareAlike licenses for creative content, and permissive open source licenses for independent software components that interface with the Game without creating derivative works.
+
+**Downstream Recipients:** You must ensure that all recipients of Modified Games receive clear notice of their rights under this license, access to required source code under Section 3, and practical ability to exercise their modification and distribution rights.
+
+**No Sublicensing:** You do not grant sublicenses to downstream recipients. Each recipient receives their license directly from the Licensor under the terms of this license. You must include a complete copy of this license or a URL where it can be obtained with all Modified Game distributions.
+
+## 6. Tournament and Competition Rights
+
+Subject to compliance with this Section, You may organize, conduct, participate in, and stream Tournaments featuring the Game. Tournaments serve important community-building and competitive functions, and this license provides specific accommodations for Tournament activities including prize competitions and entry fees.
+
+**Tournament Organization Rights:** You may organize Tournaments in any format including online competitions, in-person events, league play, championship series, exhibition matches, ladder competitions, and seasonal tournaments; establish rules, formats, eligibility requirements, and competitive structures for Tournaments; stream or broadcast Tournament matches through any medium; accept sponsorship for Tournaments from third parties; award prizes to winners and participants within the limits specified in this Section; and charge Entry Fees subject to the restrictions in this Section.
+
+**Prize Pool Allowances:** You may establish Prize Pools for Tournaments without limitation on the total Prize Pool value. Prize Pools may be funded through sponsorships, organizational budgets, prize contributions from third parties, Entry Fees within permitted limits, and other funding sources.
+
+**Licensor Prize Pool Participation:** The Licensor may elect to receive a percentage of Tournament Prize Pools according to the following terms. The Licensor may claim up to twenty percent of the total Prize Pool value for any Tournament. The Licensor's claimed percentage for a specific Game release shall be specified in the license materials distributed with that release, with twenty percent as the default if not specified. The Licensor's prize pool participation applies only to Prize Pools exceeding one thousand United States dollars in total value. For Prize Pools of one thousand dollars or less, no Licensor participation is required.
+
+**Prize Pool Payment Procedures:** If a Tournament's Prize Pool exceeds one thousand United States dollars and the Licensor has elected to participate in Prize Pools, You must notify the Licensor of the Tournament at least thirty days before the Tournament begins using the contact information in Section 14, providing Tournament name and format, scheduled dates, anticipated Prize Pool value, funding sources for the Prize Pool, and expected number of participants. The Licensor will confirm the applicable percentage within fourteen days of notification. You must remit the Licensor's share within thirty days after the Tournament concludes using payment methods specified by the Licensor.
+
+**Entry Fee Restrictions:** You may charge Entry Fees to Tournament participants subject to the following restrictions. The Licensor may claim up to fifty percent of all Entry Fee revenue collected for any Tournament. The Licensor's claimed Entry Fee percentage for a specific Game release shall be specified in the license materials distributed with that release, with fifty percent as the default if not specified. This provision is designed to discourage excessive Entry Fees by making them economically less attractive to organizers.
+
+**Entry Fee Payment Procedures:** If You charge Entry Fees for a Tournament, You must notify the Licensor at least thirty days before the Tournament using the procedures specified above. You must remit the Licensor's share of Entry Fee revenue within thirty days after the Tournament concludes. The Licensor's Entry Fee share is calculated on gross Entry Fee revenue before deduction of expenses.
+
+**Entry Fee Exception for Venue Costs:** Reasonable facility access fees charged by third-party venues for in-person Tournaments at commercial facilities such as convention centers, gaming cafes, or esports arenas are not considered Entry Fees subject to Licensor participation, provided such fees are separately stated, are charged at the venue's standard rates, and are paid directly to the venue operator rather than to the Tournament organizer.
+
+**Small Tournament Safe Harbor:** Tournaments with total Prize Pools of one thousand United States dollars or less and Entry Fees totaling one thousand United States dollars or less are exempt from notification and payment requirements, though they remain subject to all other license terms. Organizers may conduct such tournaments without Licensor notification or payment obligations.
+
+**Waiver and Negotiation:** The Licensor may waive or reduce Prize Pool participation or Entry Fee participation for specific Tournaments in the Licensor's sole discretion. Tournament organizers planning major events may contact the Licensor through the procedures in Section 14 to negotiate specific terms for particular competitions.
+
+**Sponsorship Independence:** Tournament organizers may accept sponsorship from any source and retain sponsorship revenue without Licensor participation, provided that sponsors do not require exclusive distribution rights to the Game, do not require modifications to the Game that would conflict with this license, and do not require the Tournament to use Modified Games that have not been made publicly available under this license.
+
+**Broadcast and Media Rights:** Tournament organizers may negotiate broadcast rights, media rights, and streaming rights for Tournament content without Licensor participation in such revenues. The Licensor retains ownership of the Game itself but does not claim ownership of Tournament broadcasts or competition-derived content.
+
+**Participants' Player Rights:** Tournament participants retain all rights to create User-Generated Content from their Tournament participation including streaming their own perspective, creating highlight videos, and monetizing such content under Section 1.
+
+**Anti-Gambling Requirement:** Tournaments must not involve wagering, gambling, or betting on match outcomes by participants or spectators beyond the Entry Fees and Prize Pool structure permitted herein. You must not operate or facilitate real-money gambling services based on Tournament outcomes. Fantasy leagues or prediction markets involving the Game require separate evaluation and may require a Commercial License.
+
+**Competitive Integrity:** Tournament organizers must implement reasonable measures to ensure fair play, prevent cheating, and maintain competitive integrity. Organizers must not require participants to use Modified Games that provide unfair advantages or that have not been made available to all participants. Use of approved competitive modifications for tournament standardization is permitted when disclosed to all participants.
+
+## 7. NonCommercial Restriction — Gaming-Specific Scope
+
+All rights granted under this license are strictly limited to NonCommercial use as defined in Section 0 and further clarified in this Section. Commercial Distribution and commercial exploitation of the Game itself require a separate Commercial License obtained through the procedures specified in Section 14.
+
+**Permitted Community Activities:** The following activities are explicitly permitted as NonCommercial uses and do not require a Commercial License: creating and monetizing User-Generated Content through any mechanism including Monetized Platforms, sponsorships, merchandise featuring Your original creative elements, and Direct Monetization of Your creative works provided access to the Game itself is not conditioned on payment; streaming and video content creation with any monetization model including subscriptions, advertisements, donations, sponsorships, and super chats; distributing Mods on Monetized Platforms that generate advertising or subscription revenue for You; accepting Donations for modding work, fan translations, and community contributions without Direct Monetization requirements; organizing Tournaments with Prize Pools and Entry Fees within the limits specified in Section 6; participating in Tournaments and accepting prizes; selling fan merchandise featuring Your original creative interpretations of the Game's characters, setting, or themes, provided such merchandise does not include unmodified Game Content in digital formats; and accepting sponsorships, affiliate commissions, and similar revenue streams related to Your content creation or community involvement provided You do not sell access to the Game itself.
+
+**Prohibited Commercial Activities:** The following activities constitute commercial use requiring a Commercial License: distributing the Game itself or Modified Games functioning as standalone products through commercial channels including digital storefronts, physical media, commercial game launchers, or subscription gaming services; including the Game in commercial game bundles, compilations, or collections; licensing the Game or Modified Games to third parties for commercial use; incorporating the Game into commercial products or services where access to the Game is a feature of the commercial offering; operating commercial game servers, hosting services, or online services that charge for access to Game features or exclusive gameplay beyond reasonable server operation costs; using the Game in commercial advertising or marketing where the Game is the primary draw or benefit offered; operating gambling services, real-money gaming, or wagering platforms based on the Game beyond Tournament structures permitted in Section 6; creating Total Conversions distributed as standalone commercial products; selling or licensing Direct Monetization access to Mods or Modified Games; and using the Game for commercial training purposes where participants pay for training that includes access to the Game.
+
+**Platform Revenue Sharing:** Revenue sharing through Monetized Platform programs (YouTube Partner Program, Twitch Affiliate, platform advertising revenue sharing) is NonCommercial even if substantial revenue is generated, provided that viewers or users are not required to pay for access to the specific content featuring the Game. Platform subscriptions that provide general channel benefits without conditioning access to specific Game content on payment are permitted.
+
+**Server Hosting Clarification:** Operating multiplayer servers for the Game is permitted as NonCommercial use including accepting Donations to support server operation costs without providing gameplay advantages to donors. Charging access fees that exceed documented server operation costs, or providing exclusive gameplay features, in-game advantages, or premium access tiers constitutes commercial use. Server operators may display advertisements on server-related websites or services as Monetized Platform use.
+
+**Educational and Institutional Use:** Use of the Game by educational institutions for teaching, research, student projects, or academic purposes qualifies as NonCommercial use even when tuition or course fees are charged, provided the Game is used in furtherance of educational missions. Educational institutions may allow students to create User-Generated Content or Mods as part of coursework without restriction.
+
+**Internal Business Use:** Use of the Game by for-profit entities for internal testing, research, development, or employee recreation qualifies as NonCommercial provided the Game is not integrated into commercial products or services offered to customers, does not directly support revenue-generating operations, and is not deployed in customer-facing environments.
+
+**Promotional Use by Content Creators:** Content Creators may accept promotional consideration, free products, press copies, or similar benefits from third parties (including the Licensor) in exchange for creating content about the Game, provided that such arrangements do not require the Content Creator to sell access to the Game itself or violate disclosure requirements of applicable advertising regulations.
+
+**Determining Commercial Status:** When evaluating whether a use is commercial, consider whether the use involves Commercial Distribution of the Game itself; whether revenue derives from access to the Game or from the user's original creative expression; whether the Game is integral to a commercial product or service; and whether the use competes with the Licensor's commercial interests in distributing the Game. Activities that generate revenue through Your own creative labor, content creation, or community contributions while the Game remains freely available are presumptively NonCommercial.
+
+**Requesting Clarification:** If You are uncertain whether Your intended use qualifies as NonCommercial under this gaming-specific definition, You should request written clarification from the Licensor using the procedures in Section 14 before proceeding. The Licensor may provide guidance or may require a Commercial License depending on the circumstances.
+
+## 8. Patent Grant and Defensive Termination
+
+**Patent License Grant:** Subject to the terms of this license, each Contributor to the Game who holds patent rights necessary to use, modify, or distribute the Game hereby grants You a worldwide, royalty-free, non-exclusive patent license to make, use, offer to use, import, and otherwise exercise the rights granted under this license, where such license applies only to NonCommercial uses as defined in this license and only to those patent claims licensable by such Contributor that are necessarily infringed by the Game alone or by the Game in combination with Your permitted modifications.
+
+**Scope Limitation:** The patent license granted herein applies only to NonCommercial use and NonCommercial distribution as defined in this license. Commercial Distribution or commercial use requires a separate Commercial License that includes appropriate patent grants. The patent license does not extend to patent claims that would be infringed only by modifications made by third parties that exceed the scope of modifications You are permitted to make under this license.
+
+**Patent Litigation Termination:** If You institute patent litigation against any entity, including a cross-claim or counterclaim in a lawsuit, alleging that the Game or any component incorporated within the Game constitutes direct or contributory patent infringement, then all patent licenses granted to You under this Section terminate immediately as of the date such litigation is filed. This termination is automatic and requires no notice.
+
+**Defensive Patent Claims Exception:** The termination provisions do not apply to defensive patent counterclaims asserted in response to patent litigation first initiated against You regarding the Game, provided that Your counterclaim is filed within one year of the initial claim against You and relates to the same Game or technology.
+
+**Patent License for Modified Games:** If You distribute Modified Games and You hold patents that would be necessarily infringed by use of Your modifications, You grant all recipients a patent license under the same terms as this Section for NonCommercial use of those modifications.
+
+**No Obligation to Pursue Patents:** Nothing in this license creates any obligation for any party to file, prosecute, or maintain patent applications or issued patents.
+
+## 9. Trademark and Brand Identity
+
+**No Trademark License:** This license does not grant any rights to use the trademarks, service marks, trade names, logos, or brand identities (collectively "Trademarks") of the Licensor or Contributors except as expressly permitted in this Section.
+
+**Permitted Trademark Uses:** You may use the Game's name and Trademarks for the following factual purposes: providing attribution as required by Section 4 using factual statements such as "Based on [Game Name]" or "A mod for [Game Name]"; describing compatibility or technical relationships such as "Requires [Game Name] to play" or "Compatible with [Game Name]"; creating User-Generated Content identified as featuring the Game such as "[Game Name] Gameplay" or "Fan art of [Game Name]"; reviewing, critiquing, or commenting on the Game; and creating fan works identified as unofficial fan creations.
+
+**Prohibited Trademark Uses:** You must not use Trademarks in any manner that suggests official endorsement, approval, or affiliation with the Licensor; implies that Your Mod, Modified Game, or content is an official version or extension; creates confusion about whether Your work originates from the Licensor; uses Trademarks as part of Your own product or service names without clear differentiation; uses Trademarks in domain names, application names, or service names except for fan sites clearly identified as unofficial; or disparages or tarnishes the Game or Licensor.
+
+**Modified Version Identification:** Modified Games and Mods must be clearly identified as modified, unofficial, or community-created versions. You must use distinct naming such as "[Mod Name] for [Game Name]," "[Your Name]'s [Game Name] Modification," or similar formulations that clearly distinguish Your work from official releases.
+
+**Fan Merchandise:** When creating physical fan merchandise based on the Game (t-shirts, posters, collectibles), You may reference the Game's name for identification purposes but must include clear notice that the merchandise is unofficial fan-created work not endorsed by or affiliated with the Licensor. Fan merchandise must feature substantial original creative elements and must not consist primarily of unmodified Game Content.
+
+**Community Sites and Services:** You may use the Game's name in community websites, fan forums, wiki sites, modding resources, and similar community services, provided such sites include clear disclaimers that they are unofficial community resources not affiliated with or endorsed by the Licensor.
+
+**Cease Upon Notice:** If the Licensor notifies You that Your use of Trademarks violates this Section, You must modify or cease the violating use within fifteen days. Continued violation after notice constitutes a material breach subject to permanent termination.
+
+## 10. Warranties, Disclaimers, and Limitation of Liability
+
+**Disclaimer of Warranties:** The Game is provided strictly on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, non-infringement, accuracy, reliability, error-free operation, security, or freedom from vulnerabilities. The Licensor makes no warranty that the Game will meet Your requirements or operate uninterrupted.
+
+**Gaming-Specific Disclaimers:** The Licensor makes no warranties regarding gameplay balance, difficulty, entertainment value, replayability, multiplayer functionality, server availability, compatibility with hardware or operating systems, compatibility with mods or user-generated content, preservation of save games or progress across updates, or any other aspect of the gaming experience. You assume all risks associated with gameplay including time investment, emotional investment, and potential for loss of progress.
+
+**Third-Party Content and Services:** If the Game incorporates or depends upon third-party content, libraries, services, or online features, the Licensor makes no warranties regarding the functionality, availability, security, or continued existence of such third-party elements. Third-party online services may be discontinued at any time.
+
+**User-Generated Content and Mods:** The Licensor makes no warranties regarding User-Generated Content or Mods created by community members. You are solely responsible for evaluating the safety, quality, and suitability of any Mods or User-Generated Content You choose to use. Mods may contain bugs, security vulnerabilities, malicious code, or incompatibilities.
+
+**Assumption of Risk:** You acknowledge that use of the Game and engagement with gaming communities involves inherent risks including exposure to user-generated content that may be offensive, exposure to online interactions with other players, potential for addiction or excessive time investment, potential for software conflicts or system instability, and risk of security vulnerabilities. You assume all such risks voluntarily.
+
+**Limitation of Liability:** To the maximum extent permitted by applicable law, in no event shall the Licensor or any Contributor be liable to You for any direct, indirect, special, incidental, consequential, punitive, exemplary, or other damages arising from or related to this license or the Game, including but not limited to loss of data or saved games, loss of time or productivity, loss of profits or revenue, equipment damage, emotional distress, business interruption, or any other damages, even if advised of the possibility of such damages.
+
+**Specific Liability Limitations:** The Licensor and Contributors are not liable for actions or content created by other Players, modders, or community members; security vulnerabilities in the Game or in Mods; incompatibilities with hardware, software, or mods; loss of saved games or player progress; server downtime or multiplayer disruptions; termination of third-party services; or any consequences of Your violation of this license or applicable law.
+
+**Jurisdiction-Specific Limitations:** Some jurisdictions do not allow exclusion or limitation of certain warranties or liabilities. In such jurisdictions, the limitations in this Section apply to the maximum extent permitted by applicable law.
+
+**No Support Obligation:** The Licensor is under no obligation to provide technical support, gameplay assistance, bug fixes, updates, patches, or continued development of the Game.
+
+## 11. Termination and Cure
+
+**Automatic Termination for Material Breach:** Your rights under this license terminate automatically and immediately upon Your material breach of any term. Material breaches include Commercial Distribution without a Commercial License; violation of Direct Monetization restrictions in Section 2; failure to provide required attribution; failure to provide Corresponding Source when required; violation of Tournament payment obligations in Section 6; violation of trademark restrictions after notice; circumvention of license enforcement or anti-cheat systems; distribution of Mods containing malicious code; and redistribution of the original Game in violation of Section 7.
+
+**Cure Period for Non-Willful Breaches:** If Your breach was not willful and You had no reasonable basis to believe You were in breach, You may cure the breach and reinstate Your rights by immediately ceasing all violations; taking all reasonable steps to remedy the breach within thirty days; providing written notice to the Licensor describing the breach, remediation steps, and assurance against recurrence; and making reasonable efforts to remedy effects on downstream recipients.
+
+**No Cure for Willful Breaches:** Willful breaches result in permanent termination with no cure opportunity. A breach is willful if You had actual knowledge that Your conduct violated the license terms or proceeded with reckless disregard for license compliance. Breaches are presumed willful if You continued violations for more than fifteen days after receiving written notice from the Licensor specifying the violation.
+
+**No Cure for Repeated Breaches:** If You have previously breached and cured on two prior occasions within three years, You are not entitled to cure any subsequent breach. The third breach within three years results in permanent termination.
+
+**Effect of Termination:** Upon termination, You must immediately cease all use, copying, distribution, and modification of the Game; cease streaming or creating content featuring the Game; remove or destroy all copies in Your possession; cease distributing any Mods or Modified Games; and notify recipients of Your distributions about the termination within six months.
+
+**Downstream Recipients:** Termination of Your rights does not affect the rights of downstream recipients who obtained the Game or Mods from You, provided those recipients remain in compliance. Each recipient receives their license directly from the Licensor.
+
+**Survival of Obligations:** Your attribution obligations, indemnification obligations, warranty disclaimers, liability limitations, and any provisions that by their nature should survive continue after termination.
+
+**Tournament Obligations Survive:** Tournament payment obligations under Section 6 survive termination and must be fulfilled even after Your license terminates.
+
+## 12. Contributor Licensing and Enforcement
+
+**Contributor Grant:** By submitting a contribution to the Game for inclusion by the Licensor, each Contributor grants to the Licensor and to recipients of the Game a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, and distribute their contributions and such derivative works under the terms of this license or future versions of this license.
+
+**Contributor Representations:** Each Contributor represents that they have legal authority to grant the rights in their contribution; their contribution is original or they have sufficient rights to submit it; their contribution does not violate any third-party rights; and they are not aware of any patents that would be infringed by the contribution.
+
+**Contributor Patent License:** Each Contributor grants a patent license consistent with Section 8 for any patent claims they hold that are necessarily infringed by their contribution.
+
+**Enforcement Rights:** The Licensor has the exclusive right to enforce this license. Individual Contributors do not have independent enforcement rights unless explicitly authorized by the Licensor in writing. Contributors may notify the Licensor of suspected violations and request enforcement.
+
+**Multiple Licensors:** If the Game has multiple copyright holders serving as joint Licensors, enforcement actions may be brought by any Licensor, but actions modifying license terms require unanimous consent.
+
+## 13. Indemnification
+
+To the maximum extent permitted by applicable law, You agree to indemnify, defend, and hold harmless the Licensor and all Contributors from and against any claims, demands, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from or related to Your use, modification, or distribution of the Game; Your breach of this license; Your violation of third-party rights including intellectual property, privacy, or publicity rights; Your creation or distribution of Mods, Modified Games, or User-Generated Content that causes harm or violates third-party rights; Your organization or conduct of Tournaments including prize disputes, eligibility disputes, or injury to participants; Your violation of platform terms of service in connection with the Game; and any misrepresentations You make regarding the Game.
+
+**Defense Obligations:** If a claim subject to indemnification is brought, You must assume defense of the claim at Your expense using counsel reasonably acceptable to the indemnified party. The indemnified party may participate at their own expense.
+
+**Tournament Indemnification:** You specifically indemnify the Licensor for all claims arising from Tournaments You organize including prize disputes, eligibility determinations, participant injuries, cheating accusations, and any other Tournament-related claims.
+
+**Content Creation Indemnification:** You indemnify the Licensor for claims arising from Your User-Generated Content, including claims that Your content is defamatory, infringes third-party rights, violates platform policies, or violates applicable law.
+
+**Survival:** Your indemnification obligations survive termination indefinitely.
+
+## 14. Commercial Licensing and Contact Information
+
+**Commercial Use Prohibited Without License:** All rights granted under this license are limited to NonCommercial use. If You wish to engage in Commercial Distribution of the Game, distribute Total Conversions as standalone products, incorporate the Game into commercial products or services, or otherwise use the Game commercially beyond the scope permitted in Section 7, You must obtain a separate Commercial License from the Licensor.
+
+**Commercial License Requests:** To request a Commercial License or obtain clarification regarding whether Your intended use requires a Commercial License, contact the Licensor using the following information:
+
+**Primary Contact:**  
+Email: johnwebdisplays@gmail.com  
+Subject Line: "JACX-GMG v1.0 Commercial License Request" or "JACX-GMG v1.0 Use Clarification"
+
+**Tournament Notifications:** For Tournament notifications required under Section 6, use the same contact information with Subject Line: "JACX-GMG v1.0 Tournament Notification - [Tournament Name]"
+
+**Required Information for Commercial License Requests:** Provide Your name and organization; contact information including email and postal address; detailed description of intended commercial use; anticipated revenue or business model; desired license scope and term; any platform-specific requirements; and any specific terms or accommodations requested.
+
+**Required Information for Tournament Notifications:** Provide Tournament name and format; scheduled dates; total anticipated Prize Pool value and funding sources; Entry Fee amount if applicable; expected number of participants; contact information for Tournament organizer; and any special circumstances or requests.
+
+**Response Timeline:** The Licensor will make reasonable efforts to respond to Commercial License requests within thirty business days and Tournament notifications within fourteen business days. Failure to receive a response does not grant any rights beyond those in this license.
+
+**Tournament Payment Methods:** The Licensor will specify payment methods for Tournament obligations in response to notifications. Common payment methods may include electronic transfer, payment platforms, or checks.
+
+**No Rights Without Agreement:** Requesting a Commercial License does not grant any commercial rights. You must not engage in Commercial Distribution or commercial use unless and until You have received a fully executed Commercial License agreement. Use without authorization constitutes a material breach.
+
+## 15. Governing Law and Jurisdiction
+
+**Choice of Law:** This license shall be governed by and construed in accordance with the laws of the State of New York, United States of America, without regard to conflict of law provisions. The United Nations Convention on Contracts for the International Sale of Goods shall not apply.
+
+**Jurisdiction and Venue:** Any legal action arising from or relating to this license shall be brought exclusively in the state or federal courts located in the State of New York, United States of America. You consent to personal jurisdiction and venue in such courts and waive any objections.
+
+**Service of Process:** You consent to service of process by electronic mail to any email address You have provided to the Licensor or by any other method permitted by applicable law.
+
+**Injunctive Relief:** You acknowledge that breach of this license may cause irreparable harm to the Licensor for which monetary damages are inadequate. The Licensor is entitled to seek injunctive relief or equitable remedies without proving actual damages or posting bond.
+
+**Waiver of Jury Trial:** To the maximum extent permitted by applicable law, You and the Licensor each waive any right to a jury trial in any proceeding arising from or relating to this license.
+
+**Attorneys' Fees:** In any legal action to enforce this license, the prevailing party shall be entitled to recover reasonable attorneys' fees, expert witness fees, and costs from the non-prevailing party.
+
+**Statute of Limitations:** Any claim must be filed within two years after the claim arose, or such longer period as required by applicable law.
+
+## 16. Export Control Compliance
+
+**Export Control Acknowledgment:** You acknowledge that the Game may be subject to export control laws and regulations of the United States and other countries, including but not limited to the U.S. Export Administration Regulations and economic sanctions programs.
+
+**Compliance Obligation:** You represent and warrant that You will comply with all applicable export control laws and regulations in Your use, distribution, and transfer of the Game.
+
+**Prohibited Recipients and Destinations:** You shall not use, distribute, or transfer the Game to any person or entity on government restricted party lists, including the U.S. Treasury Department's Specially Designated Nationals List, the U.S. Commerce Department's Denied Persons List or Entity List, or similar lists. You shall not use, distribute, or transfer the Game to or within any country or region subject to comprehensive sanctions.
+
+**Prohibited End Uses:** You shall not use the Game for any purpose prohibited by export control laws, including development, production, or use of weapons of mass destruction, or military end uses in countries subject to arms embargoes.
+
+**Classification Responsibility:** You are solely responsible for determining the export control classification of any Modified Games You create and for obtaining any required export licenses before distribution.
+
+**Breach for Export Violations:** Violation of export control laws constitutes a material breach resulting in immediate termination of Your rights.
+
+## 17. Artificial Intelligence and Machine Learning
+
+**Training Data Use Restrictions:** Use of the Game or any portion thereof as training data for machine learning models, large language models, neural networks, or other AI systems is prohibited for all purposes, both commercial and noncommercial, unless You obtain explicit written permission from the Licensor through the procedures in Section 14.
+
+**Prohibited AI Activities:** You must not use the Game to train AI models for any purpose; generate synthetic training data for AI systems; create datasets derived from the Game for machine learning purposes; use the Game in AI benchmarking or evaluation beyond personal academic research with published results; or incorporate the Game into AI-powered services or products.
+
+**Permitted AI Use Within Game:** This Section does not prohibit use of AI or machine learning technologies within Mods or Modified Games for gameplay purposes such as improved NPC behavior, procedural content generation within the Mod, or enhanced game systems, provided such use does not involve training models on the Game itself as data.
+
+**Academic Research Exception:** Bona fide academic researchers at accredited nonprofit institutions may use the Game for AI research purposes provided that all research results, methodologies, and findings are published openly in academic venues; no commercial products or services result from the research; any models or systems developed are released under open licenses prohibiting commercial use; and the research is conducted pursuant to the institution's educational mission.
+
+**Scraping and Automated Access:** Automated scraping, crawling, data mining, or mass extraction of Game content for AI training purposes is expressly prohibited and constitutes a material breach.
+
+## 18. Data Protection and Privacy
+
+**Personal Data in Game:** If the Game collects, processes, or stores personal data or personally identifiable information, You must comply with all applicable data protection laws including but not limited to the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and similar laws.
+
+**Modder Privacy Obligations:** If Your Mod collects, processes, or stores personal data beyond what the original Game collects, You must provide clear notice to users; obtain necessary consents under applicable law; implement appropriate security measures; comply with user rights requests; and include a privacy policy accessible to users.
+
+**No Sensitive Data Warranty:** The Licensor makes no representations regarding whether the Game contains personal data or what data protection obligations may apply. You are solely responsible for assessing and ensuring compliance.
+
+**Server Operators:** If You operate multiplayer servers for the Game, You are a data controller for any personal data You collect from players and must comply with all applicable data protection obligations independently.
+
+## 19. Accessibility
+
+**Accessibility Encouragement:** The Licensor encourages creation of Mods that improve accessibility for players with disabilities, including but not limited to visual accessibility features, auditory accessibility features, motor control accessibility features, cognitive accessibility features, and difficulty adjustments.
+
+**Accessibility Mod Exemptions:** Mods created primarily to improve accessibility may include reasonable modifications to anti-cheat or technical protection systems where necessary to achieve accessibility goals, provided such modifications do not enable unfair advantages in competitive multiplayer environments.
+
+**No Accessibility Warranty:** The Licensor makes no representations regarding the accessibility of the Game. You are responsible for assessing accessibility needs for Your use case.
+
+## 20. Licensor Succession and Contact Changes
+
+**Licensor Changes:** If the Licensor's contact information changes, the Licensor will make reasonable efforts to update the LICENSE file in official distributions and announce changes through official communication channels.
+
+**Locating Current Contact Information:** If You cannot reach the Licensor using the contact information in Section 14, You may search for updated contact information in official repositories, the Game's website, or publicly available information.
+
+**Organizational Changes:** If the Licensor undergoes merger, acquisition, dissolution, or other organizational change, license rights and obligations transfer to the successor organization.
+
+**Individual Licensor Succession:** If the Licensor is an individual who becomes deceased or legally incapacitated, license rights and obligations transfer to the individual's estate, legal heirs, or designated successor.
+
+**Orphaned Works:** If the Licensor cannot be located after reasonable efforts and at least three years have elapsed since last known contact, the Game may be considered orphaned. In such cases, You may continue using the Game under existing license terms but should document Your efforts to locate the Licensor.
+
+## 21. Community Standards and Conduct
+
+**Community Expectations:** While the Licensor does not control User-Generated Content or Mods created by the community, the Licensor encourages community members to adhere to basic standards of respect, inclusivity, and lawful conduct.
+
+**Prohibited Content in Mods:** The Licensor reserves the right to request removal of Mods that contain illegal content; content that violates third-party intellectual property rights; malicious code, viruses, or security exploits; content designed to facilitate cheating in multiplayer environments; or content that grossly violates community standards. However, the Licensor has no obligation to police community content and shall not be liable for content created by community members.
+
+**Takedown Procedures:** If the Licensor requests removal of a Mod under this Section, the modder will have fifteen days to remove the Mod or remedy the violating content. Failure to comply may result in termination under Section 11.
+
+**No Affiliation:** User-Generated Content, Mods, and community activities do not represent the views, positions, or endorsement of the Licensor. The Licensor is not responsible for community-created content.
+
+## 22. Platform Terms of Service
+
+**Platform Compliance:** When distributing the Game, Mods, or User-Generated Content through third-party platforms (streaming services, modding platforms, file hosting services, social media), You must comply with such platforms' terms of service in addition to this license.
+
+**Platform Conflicts:** If a platform's terms of service conflict with this license, this license governs Your relationship with the Licensor, but You remain responsible for compliance with platform terms. You may need to refrain from using platforms whose terms would require You to violate this license.
+
+**Platform Revenue Sharing:** Revenue sharing arrangements between You and platforms are governed by Your agreements with those platforms. This license permits You to participate in platform revenue sharing programs consistent with Section 1 and Section 7.
+
+## 23. Amendments and Future Versions
+
+**License Versions:** The Licensor may publish revised or new versions of the JACX Gaming License from time to time. Each version will be given a distinguishing version number. Major version changes indicate significant structural changes, minor version changes indicate additions or clarifications, and patch version changes indicate corrections.
+
+**Applying License Versions:** Unless otherwise specified by the Licensor, You may use the Game under the terms of the version under which You originally received the Game, or under any later version published by the Licensor with the same major version number.
+
+**Version Compatibility:** Versions with different major version numbers may contain incompatible changes. You may only upgrade to a new major version if the Licensor has specified "or later version" without restriction.
+
+**Specifying Applicable Version:** The Licensor may specify that the Game is licensed under a specific version "only" by including language such as "JACX-GMG v1.0 only" in the license notice. If the Game specifies "JACX-GMG v1.0 or later," You may use any later published version at Your option.
+
+**No Authority to Modify:** No one other than the original Licensor of this license text (Lakunake) has authority to modify, amend, or create derivative versions of this license. Individual Licensors of specific Games may not modify license terms but may choose which version to apply.
+
+## 24. How to Apply This License to Your Game
+
+To apply this license to Your game, include the following in a file named LICENSE or LICENSE.txt in the root directory of Your distribution:
+
+```
+Copyright (c) [YEAR] [YOUR NAME OR ORGANIZATION]
+
+This Game is licensed under the JACX Gaming License (JACX-GMG) version 1.0.
+
+Full license text available at: https://github.com/Lakunake/LICENSES/
+
+For commercial licensing inquiries, contact:
+[YOUR EMAIL ADDRESS]
+
+Tournament Prize Pool Percentage: [0-20%, default 20%]
+Tournament Entry Fee Percentage: [0-50%, default 50%]
+```
+
+Additionally, include the following in the Game's credits screen, about dialog, or main menu:
+
+```
+This game is licensed under JACX-GMG v1.0
+NonCommercial use permitted - see LICENSE file
+Commercial licensing: [YOUR EMAIL ADDRESS]
+```
+
+**Required Customization:** Before using this license, You must specify: copyright holder name and year; contact email address; optional URL where the full license text is available; optional Tournament Prize Pool Percentage (0-20%, default 20%); and optional Tournament Entry Fee Percentage (0-50%, default 50%).
+
+**Tournament Percentage Specification:** If You do not specify Tournament percentages, the defaults of 20% for Prize Pools and 50% for Entry Fees apply. You may set either percentage to 0% to waive participation in Prize Pools or Entry Fee revenue. These percentages should be specified in the LICENSE file and cannot be changed retroactively for copies already distributed.
+
+**Version Specification:** When applying this license, specify whether You allow later versions by using "JACX-GMG v1.0 or later" or require this specific version by using "JACX-GMG v1.0 only."
+
+## 25. Interpretation and Severability
+
+**Good Faith Interpretation:** This license shall be interpreted in good faith to effectuate the Licensor's intent to permit NonCommercial community engagement while reserving Commercial Distribution rights; enable content creation and community activities with reasonable monetization; facilitate modding and fan translation with donation support; allow competitive tournament play with prize structures; and ensure downstream recipients receive the same freedoms.
+
+**Gaming Industry Context:** This license shall be interpreted with consideration of standard practices in gaming communities, content creation ecosystems, modding communities, esports and competitive gaming, and platform-based content monetization.
+
+**Ambiguity Resolution:** In the event of ambiguity, the ambiguity shall be resolved in favor of the interpretation that preserves maximum rights for NonCommercial community members; is most consistent with the purposes stated in the Preamble; encourages healthy community engagement and content creation; and provides the Licensor with appropriate control over Commercial Distribution.
+
+**Severability:** If any provision is held to be invalid, illegal, or unenforceable, such provision shall be modified to the minimum extent necessary to make it enforceable, or if such modification is not possible, shall be severed. The invalidity of any provision shall not affect the validity of other provisions, which shall continue in full force and effect.
+
+**Headings:** Section headings are for convenience only and shall not affect interpretation.
+
+**Examples and Commentary:** Examples and commentary provided are for informational purposes only. In the event of conflict between an example and operative provisions, the operative provisions control.
+
+**Language:** This license is written in English. If translated, the English version controls in the event of conflict or ambiguity.
+
+**Entire Agreement:** This license constitutes the entire agreement between You and the Licensor regarding the Game and supersedes all prior understandings regarding such subject matter, except for separate Commercial License agreements.
+
+## 26. Practical Considerations for Game Developers
+
+**Community Benefits:** This license is designed to foster healthy gaming communities by permitting content creation with monetization; enabling modding and fan contributions with donation support; allowing competitive play with prizes; supporting fan translations and accessibility improvements; and encouraging community engagement while reserving commercial rights.
+
+**Distribution Limitations:** This license may not be suitable for commercial distribution through major gaming platforms, digital storefronts, or console platforms that require commercial licensing terms. Commercial distribution requires separate Commercial License arrangements.
+
+**Platform Compatibility:** Content creators can monetize on YouTube, Twitch, and similar platforms. Modders can distribute on mod platforms with advertising. Tournament organizers can conduct prize competitions. These activities support community growth.
+
+**Revenue Model:** This license is designed for games distributed directly to players without commercial storefront distribution, with revenue derived from Commercial Licenses for commercial use, Tournament percentage participation for major competitive events, and optional commercial expansion or sequel rights.
+
+**Community Management:** The Licensor retains control over Commercial Distribution while empowering the community. This balance can foster loyalty, encourage user-generated content, support competitive scenes, and enable organic growth through content creator exposure.
+
+**Alternative Licensing:** If broad commercial distribution is desired, consider dual-licensing: use JACX-GMG for community distribution and separate commercial terms for storefront distribution; or use this license for a base game with commercial licensing for expansions or sequels.
+
+## 27. Version 1.0 Changes from JACX-ANCSA-R v2.1
+
+This section documents the substantive changes from JACX-ANCSA-R v2.1 to create the gaming-specific JACX-GMG v1.0:
+
+**Major Gaming-Specific Additions:**
+- Section 1: Content Creator safe harbor permitting monetization of User-Generated Content on Monetized Platforms
+- Section 2: Comprehensive modding rights with Donation support and Monetized Platform distribution
+- Section 6: Complete tournament and competition framework with Prize Pool and Entry Fee provisions
+- Section 7: Gaming-specific NonCommercial definition accounting for streaming, content creation, server hosting, and community activities
+
+**Definitional Changes:**
+- Replaced "Work" with "Game" for clarity in gaming context
+- Replaced "Licensed Material" with "Game Content" and "Covered Code" with "Game Code"
+- Added "User-Generated Content" to distinguish from Modified Games
+- Added "Mod" and "Total Conversion" for modification categorization
+- Added "Content Creator," "Monetized Platform," "Direct Monetization," and "Donation" for community monetization
+- Added "Tournament," "Prize Pool," and "Entry Fee" for competitive play
+- Revised "NonCommercial" extensively to accommodate gaming community economics
+
+**Section Modifications:**
+- Simplified attribution requirements for User-Generated Content (Section 4)
+- Added clear distinctions between Mods (ShareAlike) and User-Generated Content (not ShareAlike) in Section 5
+- Removed relinking requirements from Section 6 (replaced with tournament provisions)
+- Substantially revised Section 7 NonCommercial restrictions for gaming context
+- Simplified trademark provisions in Section 9 for fan works and community sites
+- Added community standards and conduct section (Section 21)
+- Added platform terms of service considerations (Section 22)
+
+**Provisions Removed or Simplified:**
+- Machine learning training restrictions softened with academic exception (Section 17)
+- Relinking and interoperability requirements removed (not applicable to gaming context)
+- Data protection simplified for gaming context (Section 18)
+- Export control simplified (Section 16)
+
+**Provisions Retained:**
+- Core ShareAlike for Modified Games
+- Source availability for Game Code modifications
+- Patent grant and defensive termination
+- Warranty disclaimers and liability limitations
+- Attribution requirements (simplified)
+- Termination and cure provisions
+- Contributor licensing
+- Commercial licensing framework
+
+These changes transform a general-purpose NonCommercial license into a gaming-specific license that balances developer commercial interests with thriving community engagement, content creation, competitive play, and modding cultures.
+
+---
+
+## END OF LICENSE
+
+**Document Information:**
+- License: JACX Gaming License
+- Version: 1.0
+- Release Date: 16.11.2025 (dd/mm/yyyy)
+- Based on: JACX-ANCSA-R v2.1
+- License Steward: Lakunake
+
+**Summary of Key Terms (Non-Binding):**
+This is a NonCommercial gaming license that permits players to play the game, create monetized content about the game on platforms like YouTube and Twitch, create and distribute mods with donation support on ad-supported platforms, participate in tournaments with prizes, and engage in community activities while Commercial Distribution remains reserved to the Licensor. Content creators can monetize freely, modders can accept donations but cannot paywall mods, and tournaments can have prizes with optional Licensor participation. The license includes attribution and ShareAlike requirements for Modified Games. This summary is for convenience only and does not constitute legal advice. The full license terms govern all uses.
