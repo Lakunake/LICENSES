@@ -1,0 +1,548 @@
+# JACX Attribution-NonCommercial-ShareAlike Relinking License (JACX-ANCSA-R) — Version 2.1
+
+**Short name:** JACX-ANCSA-R v2.1  
+**Copyright © 2025 Lakunake**
+
+## Preamble
+
+This license combines Attribution-NonCommercial-ShareAlike principles for creative materials with relinking and source-availability protections for software components. Version 2.1 addresses legal vulnerabilities identified in version 2.0 by adding provisions for artificial intelligence and machine learning use cases, clarifying enforcement mechanisms, strengthening contributor protections, adding trademark provisions, addressing export control obligations, and improving clarity around sublicensing, willfulness determinations, and licensor succession.
+
+This license is provided as a user-draft for practical implementation. It is not legal advice. Organizations should consult qualified legal counsel before adopting this license for significant projects. Combining NonCommercial restrictions with software relinking requirements creates inherent distribution and compatibility challenges that may limit adoption in commercial ecosystems and package management systems.
+
+For projects requiring broader distribution, consider licensing creative assets and software components under separate, established licenses such as Creative Commons for assets and Mozilla Public License or Lesser General Public License for code.
+
+## License Terms
+
+By obtaining, using, copying, modifying, or distributing any portion of the Work, you expressly agree to all terms of the JACX Attribution-NonCommercial-ShareAlike Relinking License version 2.1. If you do not agree to these terms in their entirety, you have no rights to use, copy, modify, or distribute the Work in any form. Partial acceptance is not permitted.
+
+## 0. Definitions
+
+**"Work"** means all files, code, assets, media, documentation, and other materials that the Licensor distributes under this license, whether in source or object form.
+
+**"Licensed Material"** means the portions of the Work that constitute creative works including but not limited to artwork, audio recordings, music compositions, video content, textual content, three-dimensional models, textures, animations, design documents, and similar creative assets. Licensed Material is governed by the Attribution-NonCommercial-ShareAlike provisions in Sections 1, 4, 5, 7, and 18.
+
+**"Covered Code"** means the portions of the Work that constitute software including but not limited to source code files, compiled executables, libraries, scripts, build configurations, linking instructions, and compilation toolchains. Covered Code is governed by the relinking and source-availability provisions in Sections 2, 3, 4, 5, 6, 7, and 18.
+
+**"Hybrid Components"** means Work components that contain both Licensed Material and Covered Code in a manner that cannot be cleanly separated. For classification purposes, any component containing executable instructions, bytecode, or machine code shall be classified as Covered Code regardless of embedded assets. Purely data-driven components such as JSON configuration files, XML schemas, or CSV datasets that contain no executable logic shall be classified as Licensed Material. When uncertainty exists, the component shall be treated as Covered Code to ensure maximum recipient rights.
+
+**"You," "Your," or "Recipient"** means any natural person or legal entity exercising rights under this license. For legal entities, "You" includes any entity that controls, is controlled by, or is under common control with that entity. "Control" means direct or indirect ownership of more than fifty percent of voting interests or decision-making authority.
+
+**"Adapted Material"** means any material subject to copyright that is derived from or based upon the Licensed Material or modified Covered Code, including translations, derivative works, transformations, remixes, modifications, enhancements, or any other alterations requiring permission under applicable copyright law.
+
+**"Modified"** means any change to the Work including additions, deletions, alterations to functionality, corrections, enhancements, optimizations, translations to different programming languages, or any other modification requiring permission under applicable copyright law.
+
+**"NonCommercial"** means not primarily intended for or directed toward commercial advantage, private monetary compensation, or financial gain. NonCommercial uses expressly include personal use, experimentation, and hobby projects without revenue generation; academic research, teaching, and educational use at accredited nonprofit institutions; use by registered charitable organizations for their charitable purposes; government use for public sector purposes; and internal use by for-profit entities for research and development purposes where the Work is not incorporated into commercial products or services.
+
+NonCommercial uses expressly exclude incorporation into products or services offered for sale, license, or subscription; use to provide commercial services including software-as-a-service, hosting services, or consulting services; use in advertising-supported platforms where the Work contributes to revenue generation; distribution by commercial entities through paid channels; use by for-profit entities where the Work is integrated into revenue-generating operations; charging fees beyond Direct Distribution Costs as defined below; and any use where monetary compensation is received in connection with the Work, directly or indirectly, except as specifically permitted herein.
+
+**"Machine Learning Training Use"** means use of the Work as training data, fine-tuning data, or reference data for machine learning models, artificial intelligence systems, large language models, neural networks, or similar computational systems that learn patterns from data. Such use qualifies as NonCommercial only if the resulting trained model is distributed exclusively for NonCommercial purposes under terms at least as restrictive as this license, all training methodologies and architectures are published openly, and the trained model is not used to provide commercial services or integrated into commercial products. Commercial deployment of models trained on the Work requires a Commercial License regardless of whether the training itself was NonCommercial.
+
+**"ShareAlike"** means that Adapted Material must be distributed under identical license terms as the original Work, specifically this JACX-ANCSA-R license at the same or later version, preserving all recipient rights including attribution, access to source, and relinking capabilities.
+
+**"Direct Distribution Costs"** means the actual, documented, reasonable costs directly attributable to physical or electronic distribution including media costs, shipping fees, bandwidth charges, and infrastructure costs necessary for distribution. Direct Distribution Costs expressly exclude labor costs, overhead, profit margins, development costs, and any other indirect costs.
+
+**"Source Form"** means the preferred form for making modifications including human-readable source code, configuration files, interface definitions, build scripts, and any other materials necessary to understand and modify the Work.
+
+**"Object Form"** means any compiled, transformed, or processed form of the Work including compiled binaries, bytecode, minified code, obfuscated code, and any other form that is not Source Form.
+
+**"Corresponding Source"** means all Source Form necessary to compile, build, install, and execute the Covered Code including source files, build scripts, compilation instructions, interface definitions, configuration files, and any libraries or tools required for building that are not commonly available in standard development environments. Corresponding Source must be in a format that enables modification and recompilation by Recipients with ordinary technical skills. "Commonly available" means tools distributed without charge through major operating system package managers, official language distributions, or widely adopted development tool repositories.
+
+**"Independent Module"** means a software component that satisfies all of the following technical requirements: it is compiled or built separately from the Covered Code; it communicates with the Covered Code exclusively through well-defined, documented interfaces such as function calls, APIs, network protocols, or inter-process communication; it can be replaced with a functional equivalent without modifying the Covered Code; it does not share object files, memory spaces, or compilation units with the Covered Code except through standard operating system facilities; and it performs a logically distinct function that is not merely a subdivision of functionality that would normally reside in the Covered Code.
+
+Components that are designed to be compiled or linked together, share internal data structures, or require intimate knowledge of Covered Code internals do not qualify as Independent Modules.
+
+**"Licensor"** means the copyright holder or holders who distribute the Work under this license, or any authorized agent acting on their behalf. Where multiple copyright holders exist, "Licensor" includes all such holders collectively unless context clearly indicates otherwise.
+
+**"Contributor"** means any person or entity that has contributed copyrightable material to the Work and has had such contributions accepted by the Licensor for inclusion in the Work.
+
+**"Commercial License"** means a separate agreement with the Licensor that permits commercial use, distribution, or exploitation of the Work under different terms than this license.
+
+**"Sublicense"** means a license granted by You to a third party that conveys rights to use, modify, or distribute the Work or Adapted Material. Under this license, You do not grant sublicenses but rather provide notice that recipients receive their rights directly from the Licensor under this license.
+
+**"Trademark Assets"** means any trade names, trademarks, service marks, logos, trade dress, product names, or other brand identifiers associated with the Licensor or the Work.
+
+**"Export-Controlled Technology"** means any Work or portions thereof that are subject to export control laws, regulations, or international sanctions of any jurisdiction including but not limited to the U.S. Export Administration Regulations, International Traffic in Arms Regulations, or equivalent laws of other nations.
+
+**"Willful Breach"** means a breach of this license committed with actual knowledge that the conduct violates the license terms, or with reckless disregard for whether the conduct violates the license terms. A breach is presumed willful if You received written notice from the Licensor identifying the specific violation and You continued the violating conduct for more than fifteen days after such notice. A breach is not willful if You reasonably believed in good faith that Your conduct complied with the license terms and You can provide documentary evidence of such belief.
+
+## 1. Grant — Creative Asset Portion (Attribution-NonCommercial-ShareAlike)
+
+Subject to compliance with all terms of this license, the Licensor grants You a worldwide, royalty-free, non-exclusive, non-transferable, revocable license to exercise the following rights with respect to Licensed Material for NonCommercial purposes only.
+
+**Rights Granted:** You may reproduce and copy the Licensed Material in any medium or format; distribute, publicly display, and publicly perform the Licensed Material; create Adapted Material by remixing, transforming, building upon, translating, or otherwise modifying the Licensed Material; and distribute Adapted Material subject to the ShareAlike requirement in Section 5.
+
+**Conditions:** All use and distribution must remain NonCommercial as defined in Section 0. You must provide proper attribution as required by Section 4. You must apply ShareAlike terms to all Adapted Material as required by Section 5. You must not impose additional restrictions that limit recipients' rights under this license. You must not use the Licensed Material for Machine Learning Training Use except as explicitly permitted in the definition in Section 0.
+
+**Rights Reserved:** All rights not expressly granted herein are reserved by the Licensor. Commercial use, including commercial Machine Learning Training Use, requires a separate Commercial License obtained through the procedures in Section 14.
+
+## 2. Grant — Software Portion (Relinking and Source-Availability for Covered Code)
+
+Subject to compliance with all terms of this license, the Licensor grants You a worldwide, royalty-free, non-exclusive, non-transferable, revocable license to exercise the following rights with respect to Covered Code for NonCommercial purposes only.
+
+**Rights Granted:** You may execute and run the Covered Code; study and analyze the Covered Code; modify the Covered Code and create derivative works; reproduce the Covered Code; distribute the Covered Code in Source Form or Object Form subject to Sections 3 and 6; and combine or link the Covered Code with other software including proprietary software, provided all distribution remains NonCommercial and complies with Sections 3, 5, and 6.
+
+**Conditions:** All use and distribution must remain NonCommercial as defined in Section 0. Distribution in Object Form requires compliance with source availability requirements in Section 3. Distribution of executables requires compliance with relinking requirements in Section 6. You must provide proper attribution as required by Section 4. Modified Covered Code must be made available under the same terms as required by Section 5. You must not impose technical restrictions that prevent recipients from exercising their rights under Section 6. You must not use Covered Code for Machine Learning Training Use except as explicitly permitted in the definition in Section 0.
+
+**Rights Reserved:** All rights not expressly granted herein are reserved by the Licensor. Commercial use, including commercial Machine Learning Training Use, requires a separate Commercial License obtained through the procedures in Section 14.
+
+## 3. Source Availability Requirement (Covered Code)
+
+When You distribute Covered Code in Object Form or distribute any executable that contains or links to Covered Code, You must make the Corresponding Source available to all recipients by one of the following methods.
+
+**Method A — Direct Distribution:** Include the complete Corresponding Source with the Object Form distribution in a commonly used archive format. The Corresponding Source must be provided simultaneously with the Object Form distribution.
+
+**Method B — Written Offer:** Accompany the Object Form with a written offer that is permanent, irrevocable, and freely transferable to third parties, valid for at least three years from the date of distribution, to provide the complete Corresponding Source upon request. The offer must specify a valid contact method including email address and postal address; that Corresponding Source will be provided at no charge beyond Direct Distribution Costs; that Corresponding Source will be provided within thirty days of request; and that the offer is transferable to any party who receives the Object Form.
+
+**Method C — Network Distribution:** Provide a publicly accessible network location where the Corresponding Source is hosted and available for download at no charge. The network location must remain accessible for at least three years from the date of Object Form distribution; provide the Corresponding Source in a commonly used archive format; not require registration, authentication, or acceptance of additional terms; and provide download speeds and availability consistent with reasonable distribution practices.
+
+**Additional Requirements:** The Corresponding Source must be in a format that allows Recipients with ordinary technical skills to build, modify, and recompile the Object Form. You must include build instructions, compilation scripts, and documentation sufficient to produce functionally equivalent Object Form from the Corresponding Source. You must identify any compilation tools, libraries, or dependencies required to build the Covered Code, including version information and sources for obtaining them. If Corresponding Source is not provided simultaneously with Object Form distribution, You must provide it within thirty days of recipient request. Corresponding Source must be provided in the same manner and with the same level of access as the Object Form distribution.
+
+**Prohibition on Obstruction:** You must not impose legal or technical barriers that prevent or impede recipients from obtaining, building, or using the Corresponding Source. This includes but is not limited to restrictive licensing terms for build tools, geographical restrictions, throttling, paywalls, or deliberate obfuscation.
+
+## 4. Attribution Requirement (All Work)
+
+Every distribution, public display, or public performance of the Work, whether Licensed Material or Covered Code, whether in original or modified form, must include clear and reasonable attribution to the original author or authors.
+
+**Minimum Attribution Requirements:** Attribution must include all of the following information in a location and manner appropriate to the medium and distribution method: the name or pseudonym of the original author or authors as specified by the Licensor; the title or name of the Work as specified by the Licensor; a Uniform Resource Locator or other reference to the original source if provided by the Licensor; a copyright notice in the form "Copyright © [year] [author name]"; a notice that the Work is licensed under JACX-ANCSA-R v2.1 with reference to where the full license text can be obtained; and a notice of any modifications You have made, if any, with a brief description of the nature and extent of changes.
+
+**Attribution Placement Standards:** For Licensed Material distributed as standalone files, attribution must appear in metadata fields if the file format supports metadata; in accompanying documentation files located in the same directory or archive; or in credits sections if the material is incorporated into larger works such as games, films, or applications.
+
+For Covered Code distributed in Source Form, attribution must appear in header comments of source files; in a dedicated AUTHORS, CONTRIBUTORS, or CREDITS file in the root directory; or in README or similar documentation files.
+
+For Covered Code distributed in Object Form or as executables, attribution must appear in an "About" dialog or credits screen if the software has a graphical interface; in command-line help output or documentation if the software is command-line based; in a separate text file distributed with the executable if no other interface exists; or in the installer or distribution package description.
+
+For web-based distributions or software-as-a-service deployments, attribution must appear on a publicly accessible "About," "Credits," or "Licenses" page linked from the main interface; in page footers if the Work is incorporated into website content; or in API documentation if the Work is provided as an API service.
+
+**Visibility Standard:** Attribution must be presented in a manner that is readily discoverable by ordinary users exercising ordinary usage patterns. Attribution buried in obscure log files, hidden configuration files, or locations requiring technical expertise to locate does not satisfy this requirement.
+
+**Preservation Requirement:** You must retain all existing copyright notices, license notices, warranty disclaimers, attribution information, and Contributor acknowledgments present in the Work. You must not remove or alter any such notices except to add Your own notices for modifications You have made.
+
+**Reasonable Implementation:** The specific manner of attribution may vary based on the medium, distribution method, and practical constraints, but must satisfy the minimum requirements and visibility standards above. When uncertain about adequacy of attribution, contact the Licensor for clarification using the contact information in Section 14.
+
+## 5. ShareAlike Requirement (Adapted Material and Modified Covered Code)
+
+To preserve recipient freedoms and ensure attribution and source availability continue through the distribution chain, You must apply ShareAlike terms to all Adapted Material and all modifications of Covered Code.
+
+**For Adapted Material (Licensed Material):** If You create, distribute, publicly display, or publicly perform Adapted Material based on Licensed Material, You must license the entire Adapted Material under this JACX-ANCSA-R license at version 2.1 or any later version published by the Licensor. You must include a copy of this license or a URL where it can be obtained. You must provide clear notice that the Adapted Material is licensed under JACX-ANCSA-R. You must comply with all attribution requirements in Section 4 for both the original Work and Your adaptations. You must not impose additional restrictions or terms that limit recipients' rights under this license.
+
+**For Modified Covered Code:** If You modify Covered Code and distribute the modified version in any form, You must license the entire modified Covered Code under this JACX-ANCSA-R license at version 2.1 or any later version published by the Licensor. You must make the Corresponding Source of Your modifications available according to Section 3. You must provide build and linking instructions for Your modifications. You must comply with all attribution requirements in Section 4. You must clearly mark Your modifications and provide a description of changes. You must not impose additional restrictions or terms that limit recipients' rights under this license.
+
+**For Combinations with Other Software:** When You combine or link Covered Code with other software components, Independent Modules as defined in Section 0 may be licensed under different terms, provided those terms do not restrict recipients' ability to obtain Corresponding Source for the Covered Code portions; do not impose technical or legal barriers to relinking or replacing the Covered Code portions; do not prohibit NonCommercial distribution of the combined work; and are clearly identified with explicit notice of which components are under which licenses.
+
+Software components that do not qualify as Independent Modules must be licensed under this JACX-ANCSA-R license and distributed with Corresponding Source and relinking capabilities as required by Sections 3 and 6.
+
+**Version Compatibility:** When distributing Adapted Material or Modified Covered Code under "version 2.1 or later," recipients may choose to use any version from 2.1 forward, but You remain responsible for ensuring Your distribution complies with version 2.1 requirements at minimum. You may not specify "version 2.1 only" unless You are the original Licensor or have explicit written permission from the Licensor.
+
+**Determination of Independence:** When uncertainty exists about whether a component qualifies as an Independent Module, You should review the technical criteria in Section 0 carefully; document Your analysis and reasoning; err on the side of applying ShareAlike terms if substantial doubt exists; and seek clarification from the Licensor using the contact information in Section 14.
+
+**Downstream Obligations:** You must ensure that all recipients of Adapted Material or Modified Covered Code receive clear notice of their rights under this license and have practical ability to exercise those rights including access to source, attribution information, and relinking capabilities. You must not create sublicenses but rather ensure recipients understand they receive rights directly from the Licensor.
+
+## 6. Relinking and Interoperability Requirement (Covered Code)
+
+To preserve recipients' rights to modify, recompile, and replace Covered Code components with modified versions, You must provide the technical means and legal permission for relinking when You distribute executables containing Covered Code.
+
+**Relinking Obligation:** If You distribute any executable program, application, library, or other binary that incorporates, contains, or links to Covered Code, You must enable recipients to relink the executable with modified versions of the Covered Code by satisfying at least one of the following methods.
+
+**Method A — Source and Build Scripts:** Provide all of the following: the Corresponding Source for all components of the executable, including components that are not Covered Code; complete build scripts, makefiles, project files, and compilation instructions; linker scripts and linking instructions necessary to produce the executable; documentation of the build environment including compiler versions, tool versions, and platform requirements; and any cryptographic keys, signatures, or authentication credentials required to install or execute the rebuilt binary on target platforms, or explicit notice that such restrictions do not exist.
+
+**Method B — Separate Shared Library:** Distribute the Covered Code as a separate shared library, dynamically linked library, or plugin with all of the following: the shared library file with full debugging symbols and linking metadata; header files, interface definitions, or API documentation necessary to link against the library; example linking instructions demonstrating how to link a modified version; documentation of library dependencies and runtime requirements; and assurance that the executable will function with modified versions of the library that maintain API compatibility.
+
+**Method C — Documented Relinking Process:** Provide written, step-by-step instructions that enable a person with ordinary software development skills to obtain or compile a modified version of the Covered Code; link or integrate the modified Covered Code with other components of the executable; produce a functional executable with the modifications; and install and execute the modified executable on appropriate target platforms. The instructions must be sufficiently detailed and accurate that following them produces a working result without requiring reverse engineering, cryptanalysis, or circumvention of technical protection measures.
+
+**Prohibition on Technical Restrictions:** You must not employ any technology, technique, or measure that prevents, inhibits, restricts, or substantially increases the difficulty of relinking the executable with modified Covered Code. Prohibited restrictions include but are not limited to code signing or digital signature requirements that cannot be satisfied by recipients; cryptographic verification that validates only executables produced by You; hardware-based restrictions such as locked bootloaders or secure enclaves that prevent execution of modified software; license activation systems that tie the executable to the original binary; anti-tampering mechanisms that detect and prevent execution of modified binaries; obfuscation techniques deliberately designed to impede modification; legal terms such as end-user license agreements that prohibit modification or reverse engineering of the executable; patent claims asserted against recipients who exercise relinking rights; and any technological measure subject to anti-circumvention provisions of copyright law that restricts relinking.
+
+**Permitted Technical Measures:** The following technical measures do not violate the prohibition on technical restrictions, provided they do not prevent relinking by recipients who follow the provided instructions: standard compiler optimizations that improve performance but do not intentionally obfuscate; removal of debugging symbols from released binaries when full symbols are available in separate files; use of standard platform security features such as address space layout randomization or stack protection; cryptographic signing for authenticity verification when signing keys are provided to recipients or when the software functions with unsigned modified versions; and network protocol authentication where authentication credentials are documented and available to recipients.
+
+**User Product Installation Information:** If the executable is distributed for use on or with a User Product, which means any tangible personal property normally used for personal, family, or household purposes, or devices incorporated into a dwelling, You must provide Installation Information sufficient to install and execute modified versions of the Covered Code on that User Product. Installation Information means any methods, procedures, authorization keys, or other information required to install and execute modified versions of the Covered Code on the User Product from a modified version of its Corresponding Source. The information must be sufficient to ensure that the modified version functions and has access to all the same features and functions as the original version.
+
+**Timing Requirement:** All relinking materials, instructions, and information must be provided simultaneously with distribution of the executable or within thirty days of recipient request. You must not delay provision of relinking information as a means of restricting recipient rights.
+
+**Verification:** Upon request by any recipient, You must provide reasonable assistance to verify that the relinking process functions as documented, including clarifying instructions and identifying any errors in documentation. You are not required to provide personalized technical support, but must correct systematic errors in provided relinking information within a reasonable timeframe not to exceed sixty days.
+
+## 7. NonCommercial Restriction — Scope and Clarification
+
+All rights granted under this license are strictly limited to NonCommercial use as defined in Section 0. Commercial use is prohibited unless You obtain a separate Commercial License from the Licensor through the procedures specified in Section 14.
+
+**Scope of Restriction:** The NonCommercial restriction applies to all activities under this license including using the Work; reproducing or copying the Work; distributing the Work to others; publicly displaying or performing the Work; creating Adapted Material or modifying the Work; distributing Adapted Material or modifications; combining the Work with other software or materials; providing services based on or incorporating the Work; training machine learning models on the Work; and any other exercise of rights under this license.
+
+**Distribution Fees:** You may charge fees in connection with distribution of the Work only to recover Direct Distribution Costs as defined in Section 0. Such fees must not exceed documented, actual costs directly attributable to the specific distribution; be limited to media costs, shipping fees, bandwidth charges, and directly attributable infrastructure costs; exclude all labor, overhead, profit margins, development costs, support costs, and indirect costs; and be disclosed transparently to recipients with itemization upon request.
+
+Charging fees beyond Direct Distribution Costs constitutes commercial use requiring a Commercial License.
+
+**Safe Harbor Amount:** As a safe harbor provision, fees not exceeding twenty United States dollars per distribution unit are presumed to be Direct Distribution Costs and do not require itemization. Fees exceeding this amount require documentation if challenged. This safe harbor applies per unique distribution to each distinct recipient, not per copy downloaded or accessed.
+
+**Advertising and Sponsorship:** Use of the Work in any context where advertising revenue, sponsorship income, or other indirect monetization occurs constitutes commercial use unless the Work is incidental to the primary content and not a significant revenue driver; all revenue is directed to a registered nonprofit charitable organization; or the use falls within the educational or research categories explicitly defined as NonCommercial in Section 0. When uncertainty exists, presume the use is commercial and seek a Commercial License.
+
+**Internal Business Use:** Use of the Work by for-profit entities for internal research, development, testing, or evaluation purposes qualifies as NonCommercial only if the Work is not integrated into products or services offered to customers; the Work does not contribute to revenue-generating operations or processes; the Work is not deployed in production environments serving customers or business operations; and the use is genuinely experimental or developmental in nature. Use that supports or enables commercial business operations requires a Commercial License even if the Work itself is not directly commercialized.
+
+**Educational and Research Use:** Academic and research use at accredited nonprofit educational institutions qualifies as NonCommercial even when industry-sponsored or funded, provided research results are published openly or subject only to standard academic publication practices; the research is conducted pursuant to the institution's educational or research mission; the Work is not incorporated into commercial products being developed for industry partners; and any intellectual property created using the Work remains with the educational institution or is published openly. Corporate research facilities, private for-profit research institutions, and research conducted directly by commercial entities for product development purposes do not qualify as NonCommercial even if results are published.
+
+**Government Use:** Use by government entities at the federal, state, local, or tribal level for governmental purposes qualifies as NonCommercial. Use by government contractors or use in connection with commercial government contracts requires evaluation based on whether the ultimate purpose is commercial advantage or public service. When uncertain, government contractors should seek clarification through the procedures in Section 14.
+
+**Nonprofit Organizations:** Use by organizations that are registered as tax-exempt charitable organizations under the applicable jurisdiction's tax laws qualifies as NonCommercial when the use directly furthers the organization's charitable purposes. Use by organizations that call themselves "nonprofit" but are not registered as tax-exempt charitable organizations requires individual evaluation.
+
+**Machine Learning and AI Considerations:** Training machine learning models, large language models, or other AI systems on the Work qualifies as NonCommercial only if all conditions specified in the Machine Learning Training Use definition in Section 0 are satisfied. Commercial deployment of any model trained on the Work requires a Commercial License regardless of whether training was NonCommercial. Use of the Work to generate synthetic training data for commercial AI systems constitutes commercial use. Hosting the Work or models trained on the Work as part of a commercial AI service constitutes commercial use.
+
+**Determining Commercial Status:** When evaluating whether a use is commercial, consider the primary purpose and intent of the use; whether monetary compensation flows directly or indirectly from the use; whether the use is integral to revenue-generating activities; whether the user is operating as a commercial entity; whether the use provides competitive advantage in commercial markets; and whether the use would reasonably be understood as commercial in ordinary business understanding.
+
+**Requesting Clarification:** If You are uncertain whether Your intended use qualifies as NonCommercial, You should request written clarification from the Licensor using the procedures in Section 14 before proceeding with the use. The Licensor may provide guidance, or may require a Commercial License depending on the circumstances. Use without clarification when uncertainty exists is undertaken at Your own risk and may be presumed commercial in any enforcement action.
+
+## 8. Patent Grant and Defensive Termination
+
+**Patent License Grant:** Subject to the terms of this license, each Contributor to the Work who holds patent rights necessary to use, modify, or distribute the Work hereby grants You a worldwide, royalty-free, non-exclusive patent license to make, have made, use, offer to sell, import, and otherwise transfer the Work, where such license applies only to NonCommercial uses and only to those patent claims licensable by such Contributor that are necessarily infringed by the Work alone or by the Work in combination with modifications You make under this license.
+
+**Scope Limitation:** The patent license granted herein applies only to NonCommercial use as defined in Section 0; commercial use requires a separate Commercial License that includes appropriate patent grants. The patent license does not extend to patent claims that would be infringed only by modifications made by third parties, or by combinations with third-party software not contemplated by the Work. The patent license does not grant rights under patents for technologies or methods that are used in conjunction with the Work but are not part of the Work itself.
+
+**Patent Litigation Termination:** If You institute patent litigation against any entity including a cross-claim or counterclaim in a lawsuit alleging that the Work or any Covered Code incorporated within the Work constitutes direct or contributory patent infringement, then all patent licenses granted to You under this Section 8 terminate immediately as of the date such litigation is filed. This termination provision applies regardless of whether the patent litigation claim is ultimately successful. The termination is automatic and requires no notice from the Licensor.
+
+**Defensive Patent Claims:** If You bring patent litigation against an entity solely in response to that entity first initiating patent litigation against You regarding the Work, such defensive patent litigation does not trigger the termination provisions of this Section. A patent claim qualifies as defensive only if the other entity filed patent litigation against You regarding the Work before You filed Your claim; Your claim is asserted against the same entity that initiated litigation against You; Your claim relates to the same Work or Covered Code that is the subject of the litigation initiated against You; and Your claim is filed within one year of the litigation initiated against You.
+
+**Patent Licensing for Modified Versions:** If You distribute Modified Covered Code and You hold patents that would be necessarily infringed by the use of Your modifications, You grant all recipients a patent license under the same terms as this Section 8 for NonCommercial use of those modifications. This requirement applies regardless of whether You explicitly assert patent rights.
+
+**Patent Pool Licensing:** If the Work is subject to patent pool licensing arrangements or standards-essential patents, You acknowledge and agree that Your rights under this license may be subject to reasonable and non-discriminatory licensing terms required by such arrangements. The Licensor will disclose known patent pool obligations in the distribution materials.
+
+**No Obligation to Pursue Patents:** Nothing in this license creates any obligation for any party to file, prosecute, or maintain patent applications or issued patents. The patent license granted herein applies only to patents actually held or controlled by Contributors.
+
+## 9. Warranties, Disclaimers, and Limitation of Liability
+
+**Disclaimer of Warranties:** Unless required by applicable law or agreed to in writing by the Licensor, the Work is provided strictly on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+To the maximum extent permitted by applicable law, the Licensor disclaims all warranties including but not limited to implied warranties of merchantability; implied warranties of fitness for a particular purpose; implied warranties of non-infringement; warranties regarding accuracy, reliability, or correctness of the Work; warranties that the Work will be error-free or will operate without interruption; warranties regarding security or freedom from vulnerabilities; and any warranties arising from course of dealing, usage, or trade practice.
+
+**No Warranty for Third-Party Components:** If the Work incorporates or depends upon third-party components, the Licensor makes no warranties regarding the functionality, security, or continued availability of such components. You are solely responsible for verifying the suitability and security of any third-party dependencies.
+
+**Assumption of Risk:** You acknowledge and agree that use of the Work is at Your sole risk. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume all risks associated with Your exercise of rights under this license, including but not limited to risks of program errors, equipment damage, data loss, business interruption, security vulnerabilities, and personal injury.
+
+**Limitation of Liability:** To the maximum extent permitted by applicable law, in no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall the Licensor or any Contributor be liable to You for any direct, indirect, special, incidental, consequential, punitive, exemplary, or other damages of any character arising as a result of this license or out of the use or inability to use the Work, including but not limited to damages for loss of goodwill; work stoppage; computer failure or malfunction; loss of data or data corruption; loss of profits or revenue; business interruption; cost of substitute goods or services; or any and all other commercial damages or losses, even if the Licensor or Contributor has been advised of the possibility of such damages.
+
+**Jurisdiction-Specific Limitations:** Some jurisdictions do not allow the exclusion or limitation of certain warranties or liabilities, particularly for consumer products, personal injury, or death caused by negligence. In such jurisdictions, the exclusions and limitations set forth in this Section 9 shall apply to the maximum extent permitted by applicable law. Where specific mandatory consumer protection laws apply, nothing in this license shall be interpreted to exclude or limit warranties or liabilities that cannot be excluded or limited under such laws.
+
+**Security Vulnerability Disclosure:** The Licensor makes no representations regarding the security of the Work and disclaims all liability for security vulnerabilities, whether known or unknown. Recipients are responsible for conducting their own security assessments. If You discover security vulnerabilities, You are encouraged but not required to report them to the Licensor using the contact information in Section 14.
+
+**No Support Obligation:** The Licensor is under no obligation to provide support, maintenance, updates, bug fixes, or modifications for the Work. Any support that is provided is provided on a voluntary basis at the sole discretion of the Licensor.
+
+**Third-Party Rights:** The disclaimers and limitations in this Section 9 also apply for the benefit of any Contributors to the Work who are not the Licensor, to the maximum extent permitted by applicable law.
+
+## 10. Termination and Cure
+
+**Automatic Termination for Material Breach:** Your rights under this license terminate automatically and immediately, without notice from the Licensor, upon Your material breach of any term of this license. Material breaches include but are not limited to commercial use without obtaining a Commercial License; failure to provide required attribution; failure to apply ShareAlike terms to Adapted Material or Modified Covered Code; failure to provide Corresponding Source when required; failure to enable relinking when distributing executables; imposition of technical restrictions prohibited by Section 6; assertion of patent litigation as described in Section 8; removal or alteration of license notices or copyright information; distribution with additional restrictions that limit recipient rights; unauthorized use of Trademark Assets in violation of Section 11; and failure to comply with export control obligations in Section 12.
+
+**Cure Period for Non-Willful Breaches:** If Your breach was not a Willful Breach as defined in Section 0, and You had no reasonable basis to believe You were in breach, You may cure the breach and reinstate Your rights under this license by ceasing all violations immediately upon discovering or being notified of the breach; taking all reasonable steps to remedy the breach within thirty days of discovery or notice; providing written notice to the Licensor, using the contact information in Section 14, describing the nature of the breach, the steps taken to remedy the breach, and assurance that the breach will not recur; and making reasonable efforts to remedy the effects of the breach on downstream recipients, including providing any missing attribution, source code, or relinking information.
+
+If You satisfy these cure requirements within the thirty-day cure period, Your rights under this license are automatically reinstated as of the date the breach was fully cured. Reinstatement is provisional and conditional upon no recurrence of the same or similar breach.
+
+**No Cure for Willful Breaches:** No cure opportunity is available for Willful Breaches as defined in Section 0. Willful Breaches result in permanent termination of all rights under this license. Determination of whether a breach was willful shall be based on objective evidence of Your knowledge and intent at the time of the breach, applying the presumptions and standards specified in the Willful Breach definition.
+
+**No Cure for Repeated Breaches:** If You have previously breached and cured on two prior occasions within a three-year period, You are not entitled to cure any subsequent breach. The third breach within three years results in permanent termination regardless of intent. Each distinct violation type is tracked separately for purposes of this limitation.
+
+**Effect of Termination:** Upon termination of Your rights under this license, You must immediately cease all use, copying, distribution, and modification of the Work; remove or destroy all copies of the Work in Your possession or control; cease distributing any Adapted Material or Modified Covered Code based on the Work; and provide written notice to any parties to whom You distributed the Work or derivatives thereof within the preceding six months, informing them of the termination and requesting they cease distribution attributable to You.
+
+**Downstream Recipients:** Termination of Your rights does not affect the rights of downstream recipients who obtained the Work or Adapted Material from You, provided those recipients remain in compliance with this license. Each recipient receives their license directly from the Licensor, not from You as an intermediary. However, You remain liable for any breaches You committed in Your distributions.
+
+**Survival of Obligations:** Sections 4 (Attribution), 9 (Warranties and Liability), 11 (Trademark), 13 (Indemnification), 15 (Governing Law), 17 (Export Control), and any other sections that by their nature should survive termination continue in effect after termination of this license. Your indemnification obligations under Section 13 survive termination indefinitely.
+
+**Reinstatement After Permanent Termination:** If Your rights have been permanently terminated due to willful breach or repeated breaches, You may petition the Licensor for reinstatement by demonstrating extraordinary circumstances, significant remediation efforts, and compelling reasons why reinstatement serves the interests of the broader community. The Licensor has absolute discretion to grant or deny such petitions and may impose additional conditions on any reinstatement.
+
+## 11. Trademark and Brand Identity
+
+**No Trademark License:** This license does not grant any rights to use Trademark Assets of the Licensor or Contributors. Except as expressly permitted below or with explicit written permission from the Licensor, You must not use any Trademark Assets in connection with Your distribution or use of the Work.
+
+**Permitted Trademark Uses:** You may use Trademark Assets only for the following purposes: to provide factual attribution as required by Section 4, provided such use is limited to factual statements identifying the source of the Work; to describe the origin of the Work or Modified Covered Code using fair use principles, such as "based on [Work name] by [Licensor]" or "modified version of [Work name]"; to indicate compatibility or interoperability in factual, non-misleading statements such as "compatible with [Work name]"; and in comparative advertising or commentary protected by applicable fair use or nominative fair use doctrines.
+
+**Prohibited Trademark Uses:** You must not use Trademark Assets in any manner that suggests endorsement by the Licensor; creates confusion about the source or sponsorship of Your products or services; implies that Your modifications or derivative works are official versions of the Work; uses Trademark Assets as part of Your own product or service names; uses Trademark Assets in domain names, social media handles, or similar identifiers except as necessary for community discussion forums or user groups; or disparages or tarnishes the reputation of the Licensor or the Work.
+
+**Modified Version Naming:** If You distribute Modified Covered Code or Adapted Material, You must not use the original name of the Work or any confusingly similar name without clear differentiation. You must clearly indicate that Your version is modified and use a distinct name such as "[Original Work Name] Community Edition," "[Your Name]'s Fork of [Original Work Name]," or a completely different name. The Licensor may provide specific trademark usage guidelines in distribution materials that supersede these general requirements.
+
+**Trademark Compliance:** If You become aware that Your use of Trademark Assets violates this Section, You must promptly cease the violating use within fifteen days of notice or discovery. Continued violation after notice constitutes a Willful Breach subject to permanent termination under Section 10.
+
+**Third-Party Trademarks:** If the Work incorporates or references third-party trademarks, You must comply with all trademark requirements imposed by such third parties. The Licensor makes no representations regarding third-party trademark rights and provides no indemnification for Your violation of third-party trademark rights.
+
+## 12. Contributor Licensing and Enforcement
+
+**Contributor Grant:** By submitting a contribution to the Work for inclusion by the Licensor, each Contributor hereby grants to the Licensor and to recipients of the Work a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense under this license, and distribute their contributions and such derivative works under the terms of this license.
+
+**Contributor Representations:** Each Contributor represents that they have legal authority to grant the rights in their contribution; their contribution is their original creation or they have sufficient rights to submit it under this license; their contribution does not violate any third-party rights; and they are not aware of any patents that would be infringed by the contribution.
+
+**Contributor Patent License:** Each Contributor grants a patent license consistent with Section 8 for any patent claims they hold that are necessarily infringed by their contribution alone or in combination with the Work.
+
+**Enforcement Rights:** The Licensor has the exclusive right to enforce this license for the entire Work. Individual Contributors do not have independent enforcement rights unless explicitly authorized by the Licensor in writing. However, Contributors may notify the Licensor of suspected violations and request enforcement.
+
+**Multiple Licensors:** If the Work has multiple copyright holders serving as joint Licensors, enforcement actions may be brought by any Licensor. However, actions that would modify the license terms or grant exceptions require unanimous consent of all Licensors. Each Licensor may independently grant Commercial Licenses for portions of the Work they control.
+
+**Copyright Registration:** The Licensor is encouraged but not required to register copyright in the Work with applicable copyright offices to strengthen enforcement capabilities. Registration costs and procedures are the sole responsibility of the Licensor.
+
+**Violation Reporting:** If You become aware of violations of this license by third parties, You are encouraged to report such violations to the Licensor using the contact information in Section 14. The Licensor has sole discretion in determining whether to pursue enforcement action.
+
+## 13. Indemnification
+
+To the maximum extent permitted by applicable law, You agree to indemnify, defend, and hold harmless the Licensor and all Contributors from and against any and all claims, demands, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees and expert witness fees) arising from or related to Your use, modification, or distribution of the Work; Your breach of any term of this license; Your violation of any third-party rights including intellectual property rights, privacy rights, or publicity rights; any claim that Your use, modification, or distribution of the Work caused injury or damage to any third party; any defects, errors, or vulnerabilities in modifications You make to the Work that cause harm to third parties; Your violation of export control laws or regulations; Your unauthorized use of Trademark Assets; and any misrepresentations You make regarding the Work or its capabilities.
+
+This indemnification obligation applies regardless of whether the claims arise in contract, tort, negligence, strict liability, or any other legal theory, and applies even if You did not intend to cause harm or were unaware that harm might result.
+
+This indemnification does not apply to claims that arise solely from the Work as provided by the Licensor without modification by You, and where You have complied with all terms of this license.
+
+**Defense Obligations:** If a claim subject to indemnification is brought, You must upon notice from the Licensor or Contributor assume the defense of the claim at Your expense using counsel reasonably acceptable to the indemnified party. The indemnified party may participate in the defense at their own expense. You must not settle any claim in a manner that imposes obligations on the indemnified party without their prior written consent.
+
+**Cooperation:** You must reasonably cooperate with the Licensor and Contributors in the defense of any claims, including providing relevant documents, testimony, and other assistance.
+
+**Duration:** Your indemnification obligations survive termination of this license indefinitely and continue for the maximum period permitted under applicable statutes of limitations.
+
+## 14. Commercial Licensing and Contact Information
+
+**Commercial Use Prohibited Without License:** All rights granted under this license are limited to NonCommercial use. If You wish to use, modify, or distribute the Work for commercial purposes as defined in Section 0, including commercial Machine Learning Training Use, You must obtain a separate Commercial License from the Licensor.
+
+**Commercial License Requests:** To request a Commercial License or to obtain clarification regarding whether Your intended use qualifies as NonCommercial, contact the Licensor using the following information.
+
+**Primary Contact:**  
+Email: johnwebdisplays@gmail.com  
+Subject Line: "JACX-ANCSA-R v2.1 Commercial License Request" or "JACX-ANCSA-R v2.1 Use Clarification"
+
+**Required Information for License Requests:** When requesting a Commercial License, please provide Your name and organization; contact information including email and postal address; a detailed description of Your intended commercial use; the components of the Work You intend to use; Your anticipated distribution volume or revenue; Your desired license term and scope; whether machine learning or AI use is involved; any export-controlled jurisdictions where the Work will be used; and any specific terms or accommodations You are requesting.
+
+**Response Timeline:** The Licensor will make reasonable efforts to respond to Commercial License requests within thirty business days of receipt of a complete request with all required information. Response times may be longer for complex requests or during periods of high volume. Failure to receive a response within thirty days does not grant any rights beyond those in this license.
+
+**License Terms:** Commercial License terms including pricing, scope, duration, and specific provisions are negotiated individually based on the nature and extent of commercial use. The Licensor has sole discretion in determining whether to grant a Commercial License and on what terms.
+
+**General Inquiries:** For general questions about this license, clarification of terms, or reporting violations, contact the Licensor using the same contact information above.
+
+**No Rights Without Agreement:** Requesting a Commercial License does not grant any rights to use the Work commercially. You must not use the Work for commercial purposes unless and until You have received a fully executed Commercial License agreement signed by the Licensor. Use without proper authorization constitutes a material breach of this license and may subject You to legal liability including injunctive relief, damages, and attorneys' fees.
+
+**Multiple Licensors:** If the Work has multiple copyright holders serving as Licensors, Commercial Licenses require agreement from all Licensors unless the Work is divisible and You seek a license only for portions controlled by a single Licensor. In such cases, contact all Licensors as identified in the Work's attribution materials.
+
+## 15. Governing Law and Jurisdiction
+
+**Choice of Law:** This license and all disputes arising from or relating to this license, the Work, or Your use of the Work shall be governed by and construed in accordance with the laws of the State of New York, United States of America, without regard to its conflict of law provisions. The United Nations Convention on Contracts for the International Sale of Goods shall not apply.
+
+If no jurisdiction is specified by the Licensor in the LICENSE file distributed with the Work, then this license shall be governed by the laws of the jurisdiction where the Licensor is domiciled or, for corporate Licensors, where the Licensor's principal place of business is located.
+
+**Jurisdiction and Venue:** Any legal action or proceeding arising from or relating to this license, the Work, or Your use of the Work shall be brought exclusively in the state or federal courts located in the State of New York, United States of America, and You hereby consent to the personal jurisdiction and venue of such courts. You waive any objections to jurisdiction or venue in such courts.
+
+If no jurisdiction is specified by the Licensor, then venue shall lie in the courts of the jurisdiction where the Licensor is domiciled or maintains its principal place of business.
+
+**Service of Process:** You consent to service of process by electronic mail to any email address You have provided to the Licensor, or by any other method permitted by applicable law.
+
+**Injunctive Relief:** You acknowledge that breach of this license may cause irreparable harm to the Licensor for which monetary damages are an inadequate remedy. Accordingly, the Licensor is entitled to seek injunctive relief or other equitable remedies for breach of this license without the necessity of proving actual damages or posting a bond.
+
+**Waiver of Jury Trial:** To the maximum extent permitted by applicable law, You and the Licensor each waive any right to a jury trial in any proceeding arising out of or relating to this license.
+
+**International Application:** This license is intended to be enforceable worldwide. If any provision of this license is held to be unenforceable or invalid under the laws of any particular jurisdiction, such provision shall be interpreted to the maximum extent permitted by applicable law in that jurisdiction, and the remaining provisions shall continue in full force and effect.
+
+**Attorneys' Fees:** In any legal action to enforce this license, the prevailing party shall be entitled to recover its reasonable attorneys' fees, expert witness fees, and costs from the non-prevailing party.
+
+**Statute of Limitations:** Any claim or cause of action arising under this license must be filed within two years after the claim or cause of action arose, or such longer period as is required by applicable law. This limitation applies to the maximum extent permitted by applicable law.
+
+## 16. Export Control and Sanctions Compliance
+
+**Export Control Acknowledgment:** You acknowledge that the Work and any technical data related to the Work may be subject to export control laws and regulations of the United States and other countries, including but not limited to the U.S. Export Administration Regulations, the International Traffic in Arms Regulations, and economic sanctions programs administered by the Office of Foreign Assets Control.
+
+**Compliance Obligation:** You represent and warrant that You will comply with all applicable export control laws and regulations in Your use, distribution, and transfer of the Work. You shall not use, distribute, or transfer the Work in violation of any applicable export laws or regulations.
+
+**Prohibited Recipients and Destinations:** You shall not use, distribute, or transfer the Work to any person or entity listed on any government restricted party list, including but not limited to the U.S. Treasury Department's Specially Designated Nationals List, the U.S. Commerce Department's Denied Persons List, Entity List, or Unverified List, or similar lists maintained by other governments. You shall not use, distribute, or transfer the Work to or within any country or region subject to comprehensive sanctions.
+
+**Prohibited End Uses:** You shall not use the Work for any purpose prohibited by export control laws, including but not limited to development, production, handling, or use of nuclear weapons or other nuclear explosive devices; development, production, or use of chemical or biological weapons; development, production, or use of missiles or unmanned aerial vehicles capable of delivering weapons of mass destruction; or any military end use in countries subject to arms embargoes.
+
+**Classification Responsibility:** If the Work contains Export-Controlled Technology, the Licensor will make reasonable efforts to identify such content in distribution materials. However, You are solely responsible for determining the export control classification of the Work and any modifications You make, and for obtaining any required export licenses or authorizations before exporting, re-exporting, or transferring the Work.
+
+**Modifications and Derivatives:** If You create Modified Covered Code or Adapted Material that increases the export control classification of the Work, You must clearly identify such changes and provide appropriate export control notices to downstream recipients.
+
+**Breach for Export Violations:** Violation of export control laws in connection with the Work constitutes a material breach of this license and may result in immediate termination of Your rights under Section 10. Such violations may also subject You to criminal and civil penalties under applicable export control laws.
+
+**Indemnification for Export Violations:** You specifically indemnify the Licensor and Contributors for any violations of export control laws arising from Your use, modification, or distribution of the Work, in addition to the general indemnification obligations in Section 13.
+
+## 17. Artificial Intelligence and Machine Learning Specific Terms
+
+**Training Data Use Restrictions:** Use of the Work or any portion thereof as training data for machine learning models, large language models, neural networks, or other AI systems is permitted only for NonCommercial purposes as defined in the Machine Learning Training Use definition in Section 0.
+
+**Model Transparency Requirements:** If You train a machine learning model using the Work as training data under the NonCommercial exception, You must publish openly and make freely available all of the following: complete descriptions of the training methodology, architecture specifications, hyperparameters used, the full training dataset or clear identification of all data sources including the Work, evaluation metrics and results, and any pre-processing or post-processing techniques applied. This information must be published before or contemporaneously with any distribution or deployment of the trained model.
+
+**Model Licensing Requirements:** Any machine learning model trained using the Work must be licensed under this JACX-ANCSA-R license or a license with substantially similar NonCommercial restrictions and attribution requirements. You must ensure that recipients of the trained model receive notice of these license requirements and practical ability to comply with them.
+
+**Synthetic Data Restrictions:** If You use the Work to generate synthetic data for machine learning purposes, such synthetic data is considered Adapted Material and must be distributed under this license. Use of the Work to generate synthetic data for commercial AI training constitutes commercial use requiring a Commercial License.
+
+**Model Deployment Restrictions:** Deployment of any model trained on the Work in commercial services, products, or applications requires a Commercial License, even if the training itself was NonCommercial. This includes but is not limited to use in chatbots, recommendation systems, generative AI services, automated decision-making systems, and AI-powered features in commercial software.
+
+**Attribution in AI Outputs:** If a machine learning model trained on the Work generates outputs that incorporate or are substantially derived from the Work, such outputs must include attribution to the original Work as specified in Section 4, to the extent technically feasible. This requirement applies even to outputs from models that have been fine-tuned or adapted.
+
+**Scraping Prohibition:** Automated scraping, crawling, or mass downloading of the Work for AI training purposes without explicit permission constitutes a material breach of this license unless all Machine Learning Training Use requirements are satisfied.
+
+**API and Service Restrictions:** Providing API access or services that enable third parties to train AI models using the Work constitutes commercial use requiring a Commercial License, even if no direct fees are charged.
+
+## 18. Data Protection and Privacy
+
+**Personal Data in Work:** If the Work contains personal data or personally identifiable information, You must comply with all applicable data protection laws including but not limited to the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and similar laws in Your use, distribution, and modification of the Work.
+
+**Data Minimization:** When creating Adapted Material or Modified Covered Code, You should minimize the inclusion of personal data and remove or anonymize personal data where reasonably possible while preserving functionality.
+
+**Privacy Rights:** You acknowledge that individuals whose personal data may be contained in the Work retain all privacy rights under applicable law, and this license does not grant any rights to use personal data in violation of such rights.
+
+**No Sensitive Data Warranty:** The Licensor makes no representations regarding whether the Work contains personal data, sensitive personal data, or protected health information. You are solely responsible for assessing data protection compliance requirements.
+
+**Downstream Privacy Obligations:** When distributing the Work or derivatives thereof, You must inform recipients of any known data protection obligations and must not distribute the Work in a manner that would cause recipients to violate data protection laws.
+
+**Breach Notification:** If You become aware of a data breach involving personal data contained in the Work that You have distributed, You must promptly notify affected individuals and the Licensor in accordance with applicable data protection laws.
+
+## 19. Accessibility
+
+**Accessibility Considerations:** The Licensor encourages but does not require that the Work be made accessible to individuals with disabilities. If You create Adapted Material or Modified Covered Code, You are encouraged to implement accessibility features consistent with applicable accessibility standards such as WCAG 2.1 Level AA.
+
+**No Accessibility Warranty:** The Licensor makes no representations or warranties regarding the accessibility of the Work. You are solely responsible for assessing and ensuring accessibility compliance for Your use case.
+
+**Accessibility Improvements:** If You make accessibility improvements to the Work, You are encouraged but not required to contribute such improvements back to the Licensor for potential inclusion in future versions of the Work.
+
+## 20. Licensor Succession and Contact Changes
+
+**Licensor Changes:** If the Licensor's contact information changes, the Licensor will make reasonable efforts to update the LICENSE file in the official distribution of the Work and announce changes through any official communication channels associated with the Work.
+
+**Locating Current Contact Information:** If You cannot reach the Licensor using the contact information provided in Section 14, You may search for updated contact information in the official repository or distribution location for the Work, if any. You may also search for the Licensor using publicly available information.
+
+**Organizational Changes:** If the Licensor is an organization that undergoes merger, acquisition, dissolution, or other significant organizational change, license rights and obligations transfer to the successor organization. The successor organization assumes all rights and obligations of the original Licensor under this license.
+
+**Individual Licensor Succession:** If the Licensor is an individual who becomes deceased or legally incapacitated, license rights and obligations transfer to the individual's estate, legal heirs, or designated successor as specified in the individual's estate planning documents or determined by applicable law.
+
+**Orphaned Works:** If the Licensor cannot be located after reasonable efforts and a period of at least three years has elapsed since the last known contact, the Work may be considered an orphaned work. In such cases, You may continue to use the Work under the existing license terms but should document Your efforts to locate the Licensor. Commercial License requests for orphaned works should be directed to legal counsel for guidance on applicable orphaned works provisions in Your jurisdiction.
+
+**Repository Succession:** If the official repository or distribution location for the Work becomes unavailable, any person may establish a mirror or successor repository for NonCommercial distribution purposes, provided all license terms are preserved and proper attribution is maintained.
+
+## 21. Practical Compatibility Warnings
+
+**Distribution Limitations:** This license combines NonCommercial restrictions with copyleft provisions (ShareAlike) and relinking requirements for software. This combination creates known compatibility challenges.
+
+**Package Managers and Distributions:** Most major software distribution channels, including Linux distributions, language package managers (npm, pip, Maven, etc.), and app stores, have policies that prohibit or discourage NonCommercial licenses. Work licensed under JACX-ANCSA-R v2.1 may not be acceptable for inclusion in these channels.
+
+**Commercial Ecosystem Integration:** Software licensed under this license cannot be integrated into commercial products without a separate Commercial License. This limits adoption in commercial software ecosystems and may prevent use in many professional software development contexts.
+
+**License Incompatibility:** The NonCommercial restriction is incompatible with most free and open source licenses including GNU GPL, MIT, Apache, BSD, and similar licenses. You cannot combine Covered Code licensed under JACX-ANCSA-R with code under those licenses in a way that creates a derivative work, as the ShareAlike requirement would require applying incompatible JACX-ANCSA-R terms to the entire work.
+
+**AI/ML Ecosystem Challenges:** The Machine Learning Training Use restrictions may conflict with standard practices in AI research and development communities. Many AI researchers expect unrestricted access to training data. The transparency and model licensing requirements may be impractical for large-scale commercial AI deployments.
+
+**Dual Licensing Recommendation:** If broad adoption is desired, consider dual-licensing the Work: use JACX-ANCSA-R v2.1 for NonCommercial use; offer commercial licenses for commercial use; and consider offering the software under a different free/open source license (such as Mozilla Public License 2.0 for code and Creative Commons Attribution-ShareAlike for assets) for those who want broader freedom.
+
+Alternatively, consider using separate licenses for creative assets and software components: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International for assets, and Mozilla Public License 2.0 or GNU Lesser General Public License for code. This separation resolves many compatibility issues while preserving attribution and source availability requirements.
+
+**User Considerations:** Before choosing to use this license for Your work, carefully consider whether the NonCommercial restriction aligns with Your goals; whether You are prepared to administer Commercial License requests; whether the distribution limitations are acceptable for Your use case; whether Your target audience will be able to work within the NonCommercial constraints; whether the AI/ML restrictions align with Your intentions; and whether You would benefit from broader adoption under less restrictive terms.
+
+## 22. Amendments and Future Versions
+
+**License Versions:** The Licensor may publish revised or new versions of the JACX Attribution-NonCommercial-ShareAlike Relinking License from time to time. Each version will be given a distinguishing version number following semantic versioning principles where major version changes indicate significant structural changes, minor version changes indicate additions or clarifications, and patch version changes indicate corrections of errors or ambiguities.
+
+**Applying License Versions:** Unless otherwise specified by the Licensor, You may use the Work under the terms of the version of the license under which You originally received the Work, or under the terms of any later version published by the Licensor with the same major version number.
+
+**Major Version Compatibility:** Versions with different major version numbers (e.g., v2.x vs. v3.x) may contain incompatible changes. You may only upgrade to a new major version if the Licensor has specified "or later version" without restriction, or has explicitly authorized use under the new major version.
+
+**Specifying Applicable Version:** The Licensor may specify that the Work is licensed under a specific version of this license "only" by including language such as "JACX-ANCSA-R v2.1 only" in the license notice. In such cases, You may not use later versions without explicit permission.
+
+If the Work specifies "JACX-ANCSA-R v2.1 or later" or similar language, You may use any later published version of this license at Your option, subject to major version compatibility rules above.
+
+**No Authority to Modify:** No one other than the original Licensor of this license text (Lakunake) has authority to modify, amend, or create derivative versions of this license. Any purported modifications by third parties are void and ineffective. Individual Licensors of specific Works may not modify the license terms but may choose which version to apply.
+
+**License Text Updates:** The canonical license text is maintained at a publicly accessible location specified by Lakunake. Users are encouraged to reference the canonical license text rather than embedding copies, to ensure they receive updates and clarifications.
+
+## 23. How to Apply This License to Your Work
+
+To apply this license to Your work, include the following in a file named LICENSE or LICENSE.txt in the root directory of Your distribution:
+
+```
+Copyright (c) [YEAR] [YOUR NAME OR ORGANIZATION]
+
+This Work is licensed under the JACX Attribution-NonCommercial-ShareAlike 
+Relinking License (JACX-ANCSA-R) version 2.1.
+
+Full license text available at: [URL WHERE FULL LICENSE TEXT CAN BE OBTAINED]
+
+For commercial licensing inquiries, contact:
+[YOUR EMAIL ADDRESS]
+[YOUR POSTAL ADDRESS]
+```
+
+Additionally, include the following header comment in each source file, adjusting the format for the comment syntax of the particular language:
+
+```
+Copyright (c) [YEAR] [YOUR NAME OR ORGANIZATION]
+Licensed under JACX-ANCSA-R v2.1
+See LICENSE file for full terms
+Commercial licensing: [YOUR EMAIL ADDRESS]
+```
+
+For creative asset files where comment syntax is not available, include attribution in metadata fields or accompanying documentation.
+
+**Customization Required:** Before using this license, You must customize the copyright holder name and year; the contact email address for commercial licensing; the postal address for commercial licensing; optionally the governing law jurisdiction (Section 15); optionally the jurisdiction for legal venue (Section 15); and any URL where the full license text is available.
+
+Failure to specify these required elements may make the license terms ambiguous or unenforceable.
+
+**Version Specification:** When applying this license, specify whether You allow later versions by using "JACX-ANCSA-R v2.1 or later" or require this specific version by using "JACX-ANCSA-R v2.1 only". If You permit later versions, consider limiting to minor version updates by specifying "JACX-ANCSA-R v2.x" to avoid incompatible major version changes.
+
+**Multiple Licensors:** If the Work has multiple copyright holders, all Licensors should be listed in the copyright notice, or a separate AUTHORS or CONTRIBUTORS file should list all copyright holders with their respective contribution dates.
+
+## 24. Interpretation and Severability
+
+**Good Faith Interpretation:** This license shall be interpreted in good faith to effectuate the Licensor's intent to permit NonCommercial use while preserving attribution, source availability, and relinking rights; to prohibit commercial use and commercial AI training without a separate Commercial License; and to ensure downstream recipients receive the same freedoms.
+
+**Ambiguity Resolution:** In the event of ambiguity in any provision of this license, the ambiguity shall be resolved in favor of the interpretation that preserves maximum rights for NonCommercial recipients; the interpretation that is most consistent with the purposes stated in the Preamble; and the interpretation that provides the Licensor with maximum control over commercial exploitation.
+
+**Contra Proferentem:** Notwithstanding the above, any ambiguity in provisions that limit the Licensor's liability or disclaim warranties shall be construed against the Licensor and in favor of the Recipient, to the extent required by applicable law.
+
+**Severability:** If any provision of this license is held to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be modified to the minimum extent necessary to make it enforceable while preserving its intent, or if such modification is not possible, such provision shall be severed from this license. The invalidity or unenforceability of any provision shall not affect the validity or enforceability of any other provision, and the remaining provisions shall continue in full force and effect.
+
+**Reformation:** If any provision of this license is found to be unenforceable as written but could be made enforceable through reasonable modification, the court may reform the provision to the minimum extent necessary to make it enforceable.
+
+**Headings:** Section headings and subsection headings are for convenience only and shall not affect the interpretation of this license.
+
+**Examples and Commentary:** Any examples, illustrations, or commentary provided in this license are for informational purposes only and do not limit or expand the scope of the license provisions. In the event of conflict between an example and the operative provisions, the operative provisions control.
+
+**Language:** This license is written in English. If this license is translated into other languages, the English version shall control in the event of any conflict or ambiguity.
+
+**Entire Agreement:** This license constitutes the entire agreement between You and the Licensor regarding the Work and supersedes all prior or contemporaneous understandings or agreements, written or oral, regarding such subject matter.
+
+## 25. Version 2.1 Changes from Version 2.0
+
+This section documents the substantive changes from version 2.0 to version 2.1:
+
+**New Provisions Added:**
+- Section 17: Comprehensive artificial intelligence and machine learning specific terms including training data use restrictions, model transparency requirements, and synthetic data handling
+- Section 18: Data protection and privacy compliance requirements
+- Section 19: Accessibility considerations and encouragements
+- Section 20: Licensor succession provisions for organizational changes and orphaned works
+- Enhanced Section 11: Trademark and brand identity protections
+- Enhanced Section 12: Contributor licensing and enforcement mechanisms for multi-contributor projects
+- Section 16: Export control and sanctions compliance obligations
+
+**Definitions Enhanced:**
+- Added "Machine Learning Training Use" definition with specific restrictions
+- Added "Contributor" definition
+- Added "Willful Breach" definition with objective standards
+- Added "Sublicense" clarification
+- Added "Trademark Assets" definition
+- Added "Export-Controlled Technology" definition
+- Clarified "Corresponding Source" to specify what constitutes "commonly available" tools
+
+**Section Improvements:**
+- Section 7: Expanded NonCommercial scope to explicitly address AI/ML use cases
+- Section 8: Added patent pool licensing provisions and contributor patent obligations
+- Section 9: Added security vulnerability disclosure guidance and third-party component disclaimers
+- Section 10: Clarified willful breach standards and added reinstatement petition process
+- Section 13: Enhanced indemnification with defense obligations and cooperation requirements
+- Section 15: Added statute of limitations, attorneys' fees provisions, and service of process terms
+- Section 22: Enhanced version compatibility rules with semantic versioning
+
+**Procedural Clarifications:**
+- Improved cure period procedures with specific documentation requirements
+- Enhanced attribution placement standards for various distribution contexts
+- Clarified downstream recipient obligations
+- Added verification procedures for relinking compliance
+
+These changes address legal vulnerabilities identified in version 2.0 while maintaining backward compatibility for the core license grant and restrictions.
+
+---
+
+## END OF LICENSE
+
+**Document Information:**
+- License: JACX Attribution-NonCommercial-ShareAlike Relinking License
+- Version: 2.1
+- Release Date: November 16, 2025
+- Supersedes: Version 2.0 (January 2025)
+- License Steward: Lakunake
+- Canonical Text Location: [To be specified by Licensor]
+
+**Summary of Key Terms (Non-Binding):**
+This is a NonCommercial license with attribution and ShareAlike requirements that permits recipients to use, modify, and distribute creative materials and software for NonCommercial purposes only. Commercial use requires a separate Commercial License. The license includes copyleft provisions requiring derivatives to be shared under the same terms, source code availability requirements for software, and technical relinking requirements. Special restrictions apply to AI/ML training uses. This summary is provided for convenience only and does not constitute legal advice. The full license terms above govern all uses.
